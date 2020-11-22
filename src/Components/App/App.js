@@ -1,3 +1,4 @@
+import React from 'react';
 import '../Styling/App.scss';
 
 function App() {
