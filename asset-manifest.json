@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TypescriptCheatSheet/static/css/main.163348cc.chunk.css",
+    "main.js": "/TypescriptCheatSheet/static/js/main.4d2168b0.chunk.js",
+    "main.js.map": "/TypescriptCheatSheet/static/js/main.4d2168b0.chunk.js.map",
+    "runtime-main.js": "/TypescriptCheatSheet/static/js/runtime-main.847860c2.js",
+    "runtime-main.js.map": "/TypescriptCheatSheet/static/js/runtime-main.847860c2.js.map",
+    "static/js/2.f5a1808f.chunk.js": "/TypescriptCheatSheet/static/js/2.f5a1808f.chunk.js",
+    "static/js/2.f5a1808f.chunk.js.map": "/TypescriptCheatSheet/static/js/2.f5a1808f.chunk.js.map",
+    "static/js/3.c5d9303c.chunk.js": "/TypescriptCheatSheet/static/js/3.c5d9303c.chunk.js",
+    "static/js/3.c5d9303c.chunk.js.map": "/TypescriptCheatSheet/static/js/3.c5d9303c.chunk.js.map",
+    "index.html": "/TypescriptCheatSheet/index.html",
+    "static/css/main.163348cc.chunk.css.map": "/TypescriptCheatSheet/static/css/main.163348cc.chunk.css.map",
+    "static/js/2.f5a1808f.chunk.js.LICENSE.txt": "/TypescriptCheatSheet/static/js/2.f5a1808f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.847860c2.js",
+    "static/js/2.f5a1808f.chunk.js",
+    "static/css/main.163348cc.chunk.css",
+    "static/js/main.4d2168b0.chunk.js"
+  ]
+}
