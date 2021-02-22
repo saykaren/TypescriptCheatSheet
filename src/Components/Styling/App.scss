@@ -1,5 +1,9 @@
 @import './variables.scss';
 
+a{
+  color: $light-color;
+}
+
 .App {
     text-align: center;
   }
@@ -39,3 +43,15 @@
     }
   }
   
+
+  .instructionalBox{
+    background-color: $primary-color;
+    color: $light-color;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .instructionalSection {
+    display: flex;
+    flex-wrap: wrap;
+  }
