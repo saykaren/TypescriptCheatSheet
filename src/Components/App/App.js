@@ -4,6 +4,7 @@ import interfaceExample from "../Assests/interface.jpeg";
 import incomingProps from "../Assests/incomingProps.jpeg";
 import inline from "../Assests/Inline.jpeg";
 import useStateImage from "../Assests/useState_setState.jpeg";
+import GitCommandData from "./GitCommandsData";
 
 function App() {
   return (
@@ -109,6 +110,25 @@ function App() {
         <p>git checkout –b development </p>
         <div className="instructionalBox">
           <h2>Git </h2>
+          <table>
+            <tr>
+              <th>Action</th>
+              <th>Git command</th>
+              <th>Note</th>
+            </tr>
+            {GitCommandData && GitCommandData.map((x, index)=>(
+              <tr>
+                <td>{x.action}</td>
+                <td>{x.command}</td>
+                <td>{x.note}</td>
+              </tr>
+            ))}
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </table>
         </div>
         <div className="instructionalBox">
           <h2>Add SASS Steps</h2>
