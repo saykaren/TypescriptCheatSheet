@@ -4,9 +4,10 @@ import interfaceExample from "../Assests/interface.jpeg";
 import incomingProps from "../Assests/incomingProps.jpeg";
 import inline from "../Assests/Inline.jpeg";
 import useStateImage from "../Assests/useState_setState.jpeg";
-import GitCommandData from "./GitCommandsData";
 
-function App() {
+import GitCommands from "./GitCommands";
+
+const App =()=> {
   return (
     <div className="App">
       <header className="App-header">sayKaren's Cheatsheet</header>
@@ -108,28 +109,8 @@ function App() {
         <p>reference how to setup app?</p>
         <div>codes for typescript and sass and useInterval for state</div>
         <p>git checkout –b development </p>
-        <div className="instructionalBox">
-          <h2>Git </h2>
-          <table>
-            <tr>
-              <th>Action</th>
-              <th>Git command</th>
-              <th>Note</th>
-            </tr>
-            {GitCommandData && GitCommandData.map((x, index)=>(
-              <tr>
-                <td>{x.action}</td>
-                <td>{x.command}</td>
-                <td>{x.note}</td>
-              </tr>
-            ))}
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
-        </div>
+        <GitCommands/>
+
         <div className="instructionalBox">
           <h2>Add SASS Steps</h2>
           <ul>
