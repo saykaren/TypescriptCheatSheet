@@ -34,13 +34,22 @@ export const GitCommandData = [
   { action: "Confirm Remote Setup", command: "git remove -v", note: "", category: "Remote" },
   { action: "Add Upstream", command: "git remote add upstream <link>", note: "", category: "Remote" },
   { action: "Change Origin Link", command: "git remote set-url origin <link>", note: "", category: "Remote" },
+  { action: "Open Program", command: "open -a vscode", note: "Open vscode", category: "Open" },
+  { action: "Clone", command: "git clone <file_link>", note: "", category: "Clone" },
+  { action: "Fetching/pulling down code", command: "fetch", note: "", category: "Branching" },
+  { action: "Update Code", command: "git pull", note: "", category: "Branching" },
+  { action: "Get from upstreamn main", command: "git pull upstream main", note: "", category: "Branching" },
+  { action: "Difference in code", command: "git diff -cached", note: "", category: "Branching" },
+  { action: "Rewrite commits", command: "git rebase -i main - autosquash", note: "I is for interactive", category: "Branching" },
+  { action: "?", command: "git reflog", note: "", category: "Other" },
+  { action: "Push code up", command: "git push -u origin HEAD", note: "If you are on the latest verision of the branch", category: "Branching" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
+
 
 
 

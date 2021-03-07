@@ -55,3 +55,12 @@ a{
     display: flex;
     flex-wrap: wrap;
   }
+
+  .tableColumn {
+    width: 30%;
+    margin: 15px;
+    padding: 5px;
+   border: 5px solid $primary-color;
+   box-shadow: inset 1px 1px $light-color;
+   border-radius: 5px;
+  }
