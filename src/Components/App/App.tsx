@@ -1,18 +1,18 @@
 import React from "react";
 import "../Styling/App.scss";
-import inline from "../Assests/Inline.jpeg";
 import GitCommands from "./GitCommands";
 import FunctionalComponent from "./FunctionalComponent";
 import PropsUseState from "./PropsUseState";
 import InterfaceExamples from "./InterfaceExamples";
+import AddTypeScript from "./AddingTypeScript";
 
-const App =()=> {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">sayKaren's Cheatsheet</header>
       <section className="instructionSection">
-        <PropsUseState/>
-        <InterfaceExamples/>
+        <PropsUseState />
+        <InterfaceExamples />
 
         <div className="instructionalBox">
           <a
@@ -83,26 +83,40 @@ const App =()=> {
         <p>reference how to setup app?</p>
         <div>codes for typescript and sass and useInterval for state</div>
         <p>git checkout –b development </p>
-        <GitCommands/>
+        <GitCommands />
 
         <div className="instructionalBox">
           <h2>Add SASS Steps</h2>
           <ul>
             <li>Add with git command: yarn add node-sass</li>
             <li>Now rename ./src/App.css to ./src/App.scss</li>
-            <li>Open ./src/App.js and you will find import './App.css'. Change it to import './App.<b>scss</b>'</li>
-            <li>Create a sass file name it variables.scss under ./src directory. Typically add a directory called Styling to keep your styling items in.</li>
-            <li>Open variables.scss file and start with $primary-color: #282c34; $secondary-color: #61dafb;</li>
-            <li>Navigate to App.scss and add to the top @import './variables.scss'</li>
-            <li>Now you can add the $primary-color instead a direct color name in your code so if you change colors later it will change all spots.</li>
+            <li>
+              Open ./src/App.js and you will find import './App.css'. Change it
+              to import './App.<b>scss</b>'
+            </li>
+            <li>
+              Create a sass file name it variables.scss under ./src directory.
+              Typically add a directory called Styling to keep your styling
+              items in.
+            </li>
+            <li>
+              Open variables.scss file and start with $primary-color: #282c34;
+              $secondary-color: #61dafb;
+            </li>
+            <li>
+              Navigate to App.scss and add to the top @import './variables.scss'
+            </li>
+            <li>
+              Now you can add the $primary-color instead a direct color name in
+              your code so if you change colors later it will change all spots.
+            </li>
             <li>Example .App-link{`{color: $secondary-color;}`}</li>
           </ul>
           <p></p>
           <p></p>
-
         </div>
-        <FunctionalComponent/>
-      
+        <FunctionalComponent />
+
         <div className="instructionalBox">
           <h2>Filter Fun</h2>
           <p>
@@ -153,9 +167,20 @@ const App =()=> {
           <p>{``}</p>
           <p>{``}</p>
         </div>
+        <div className="instructionalBox">
+          <h2>Create React App Website</h2>
+          <a
+            href="https://create-react-app.dev/docs/getting-started"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Create React App Tips
+          </a>
+        </div>
+        <AddTypeScript/>
       </section>
     </div>
   );
-}
+};
 
 export default App;
