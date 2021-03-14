@@ -49,9 +49,11 @@ a{
     color: $light-color;
     padding: 5px;
     margin: 5px;
+    width: fit-content;
+    min-width: 30%;
   }
 
-  .instructionalSection {
+  .instructionSection {
     display: flex;
     flex-wrap: wrap;
   }
