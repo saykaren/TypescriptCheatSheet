@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/TypescriptCheatSheet/static/css/main.0d89e95a.chunk.css",
-    "main.js": "/TypescriptCheatSheet/static/js/main.3839b01d.chunk.js",
-    "main.js.map": "/TypescriptCheatSheet/static/js/main.3839b01d.chunk.js.map",
+    "main.css": "/TypescriptCheatSheet/static/css/main.1a823adc.chunk.css",
+    "main.js": "/TypescriptCheatSheet/static/js/main.fc38616e.chunk.js",
+    "main.js.map": "/TypescriptCheatSheet/static/js/main.fc38616e.chunk.js.map",
     "runtime-main.js": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js",
     "runtime-main.js.map": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js.map",
-    "static/js/2.38ed1dd8.chunk.js": "/TypescriptCheatSheet/static/js/2.38ed1dd8.chunk.js",
-    "static/js/2.38ed1dd8.chunk.js.map": "/TypescriptCheatSheet/static/js/2.38ed1dd8.chunk.js.map",
+    "static/js/2.afe9ed84.chunk.js": "/TypescriptCheatSheet/static/js/2.afe9ed84.chunk.js",
+    "static/js/2.afe9ed84.chunk.js.map": "/TypescriptCheatSheet/static/js/2.afe9ed84.chunk.js.map",
     "static/js/3.695022f0.chunk.js": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js",
     "static/js/3.695022f0.chunk.js.map": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js.map",
     "index.html": "/TypescriptCheatSheet/index.html",
-    "static/css/main.0d89e95a.chunk.css.map": "/TypescriptCheatSheet/static/css/main.0d89e95a.chunk.css.map",
-    "static/js/2.38ed1dd8.chunk.js.LICENSE.txt": "/TypescriptCheatSheet/static/js/2.38ed1dd8.chunk.js.LICENSE.txt",
+    "static/css/main.1a823adc.chunk.css.map": "/TypescriptCheatSheet/static/css/main.1a823adc.chunk.css.map",
+    "static/js/2.afe9ed84.chunk.js.LICENSE.txt": "/TypescriptCheatSheet/static/js/2.afe9ed84.chunk.js.LICENSE.txt",
     "static/media/ComponentSetup.a49055b3.jpeg": "/TypescriptCheatSheet/static/media/ComponentSetup.a49055b3.jpeg",
-    "static/media/Inline.baeb3e7b.jpeg": "/TypescriptCheatSheet/static/media/Inline.baeb3e7b.jpeg",
+    "static/media/InterfacePropsExample.684c975c.jpeg": "/TypescriptCheatSheet/static/media/InterfacePropsExample.684c975c.jpeg",
     "static/media/incomingProps.dbfc857f.jpeg": "/TypescriptCheatSheet/static/media/incomingProps.dbfc857f.jpeg",
     "static/media/interface.d315b9cd.jpeg": "/TypescriptCheatSheet/static/media/interface.d315b9cd.jpeg",
     "static/media/useState_setState.7cddcdd3.jpeg": "/TypescriptCheatSheet/static/media/useState_setState.7cddcdd3.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a17407c6.js",
-    "static/js/2.38ed1dd8.chunk.js",
-    "static/css/main.0d89e95a.chunk.css",
-    "static/js/main.3839b01d.chunk.js"
+    "static/js/2.afe9ed84.chunk.js",
+    "static/css/main.1a823adc.chunk.css",
+    "static/js/main.fc38616e.chunk.js"
   ]
 }
