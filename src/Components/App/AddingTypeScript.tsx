@@ -5,8 +5,7 @@ import InterfacePropsExample from '../Assests/InterfacePropsExample.jpeg';
 const AddTypeScript = () =>{
 
     return(
-        <div className="instructionalBox">
-        <h2>Adding TypeScript</h2>
+<>
         <p>
           Add TypeScript to existing app you must first install it. In git
           navigate into your project and do npm install --save typescript OR
@@ -23,7 +22,7 @@ const AddTypeScript = () =>{
          rel="noreferrer noopener"
          target="_blank"
          >TypeScript Handbook for JS Programmers</a>
-      </div>
+      </>
     );
 };
 

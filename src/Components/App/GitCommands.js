@@ -1,30 +1,25 @@
-import Recact, {useState} from "react";
+import Recact from "react";
 import GitCommandData from "./GitCommandsData";
 
 const GitCommands = () => {
-    const [activeGitList, setActiveGitList] = useState(false);
-    
-    return(
-        <div className="instructionalBox">
-        <h2>Git Commands </h2>
-        <table>
+
+  return (
+    <table>
+      <tr>
+        <th className="tableColumn">Action</th>
+        <th className="tableColumn">Git command</th>
+        <th className="tableColumn">Note</th>
+      </tr>
+      {GitCommandData &&
+        GitCommandData.map((x, index) => (
           <tr>
-            <th className="tableColumn">Action</th>
-            <th className="tableColumn">Git command</th>
-            <th className="tableColumn">Note</th>
+            <td className="tableColumn">{x.action}</td>
+            <td className="tableColumn">{x.command}</td>
+            <td className="tableColumn">{x.note}</td>
           </tr>
-          {GitCommandData && GitCommandData.map((x, index)=>(
-            <tr>
-              <td className="tableColumn">{x.action}</td>
-              <td className="tableColumn">{x.command}</td>
-              <td className="tableColumn">{x.note}</td>
-            </tr>
-          ))}
- 
-        </table>
-      </div>
-    )
+        ))}
+    </table>
+  );
 };
 
 export default GitCommands;
-
