@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import toggleOff from "../Assests/toggle_off.png";
+import toggleOn from "../Assests/toggle_on.png";
 
 interface SectionComponentProps {
   title: string;
@@ -10,23 +12,35 @@ const SectionComponent = ({ title, htmlElement }: SectionComponentProps) => {
   return (
     <>
       {propsActive ? (
-        <div className="instructionalBox">
+        <div className="instructionalBox active">
           <h2>{title}</h2>
-          <span className="exit" onClick={(x) => setPropsActive(!propsActive)}>
-            X
-          </span>
+          <img
+            src={toggleOff}
+            className="exit"
+            alt="Toggle off"
+            onClick={(x) => setPropsActive(!propsActive)}
+          />
           <section className="section-main"> {htmlElement}</section>
-          <span className="exit" onClick={(x) => setPropsActive(!propsActive)}>
-            X
-          </span>
+          <img
+            src={toggleOff}
+            className="exit"
+            alt="Toggle off"
+            onClick={(x) => setPropsActive(!propsActive)}
+          />
         </div>
       ) : (
         <div
-          className="instructionalBox"
+          className="instructionalBox inactive"
           onClick={(x) => setPropsActive(!propsActive)}
         >
-          <h2>{title}</h2>
-          Open
+                    <img
+            src={toggleOn}
+            className="exit"
+            alt="Toggle on"
+            onClick={(x) => setPropsActive(!propsActive)}
+          />
+          <h2 className="TitleClosed">{title}</h2>
+
         </div>
       )}
     </>

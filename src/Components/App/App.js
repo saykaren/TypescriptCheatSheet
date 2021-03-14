@@ -13,6 +13,7 @@ import FilterFun from "./FilterFun";
 import ReduceRacing from "./ReduceRacing";
 import MappingMadness from "./MappingMadness";
 import ResourceLinks from "./ResourceLinks";
+import Footer from "./Footer";
 
 const App = () => {
   return (
@@ -66,6 +67,7 @@ const App = () => {
         />
         <SectionComponent title="Resources" htmlElement={<ResourceLinks />} />
       </section>
+      <Footer/>
     </div>
   );
 };
