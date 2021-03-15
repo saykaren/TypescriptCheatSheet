@@ -14,6 +14,7 @@ import ReduceRacing from "./ReduceRacing";
 import MappingMadness from "./MappingMadness";
 import ResourceLinks from "./ResourceLinks";
 import Footer from "./Footer";
+import PropComponentSetup from "./PropComponentSetup";
 
 const App = () => {
   return (
@@ -65,6 +66,7 @@ const App = () => {
           title="Adding TypeScript"
           htmlElement={<AddTypeScript />}
         />
+        <SectionComponent title="Component Initial Setup with Interface Props" htmlElement={PropComponentSetup}/>
         <SectionComponent title="Resources" htmlElement={<ResourceLinks />} />
       </section>
       <Footer/>

@@ -32,3 +32,15 @@ html {
   background-color: #61dafb;
   height: 100vh;
 }
+
+.imageGroup {
+  max-width: 80vw;
+  box-shadow: 1px 1px 1px $light-color;
+  border-radius: 10px;
+  
+}
+
+.imageGroup:hover {
+  transform: scale(1.5);
+
+}

@@ -1,5 +1,4 @@
 import React from "react";
-import ComponentSetup from "../Assests/ComponentSetup.jpeg";
 
 const MappingMadness = () => {
   return (
