@@ -15,6 +15,7 @@ import MappingMadness from "./MappingMadness";
 import ResourceLinks from "./ResourceLinks";
 import Footer from "./Footer";
 import PropComponentSetup from "./PropComponentSetup";
+import PythonBehave from "./PythonBehave";
 
 const App = () => {
   return (
@@ -66,10 +67,17 @@ const App = () => {
           title="Adding TypeScript"
           htmlElement={<AddTypeScript />}
         />
-        <SectionComponent title="Component Initial Setup with Interface Props" htmlElement={PropComponentSetup}/>
+        <SectionComponent
+          title="Component Initial Setup with Interface Props"
+          htmlElement={PropComponentSetup}
+        />
+        <SectionComponent
+          title="Python Behave"
+          htmlElement={<PythonBehave />}
+        />
         <SectionComponent title="Resources" htmlElement={<ResourceLinks />} />
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
