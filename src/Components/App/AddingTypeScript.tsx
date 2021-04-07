@@ -15,9 +15,9 @@ const AddTypeScript = () =>{
           {`Next rename any file to be TypeScript file (e.g. App.js to App.tsx). Restart your development server`}
         </p>
         <p>Under components make an Interface folder to hold interface objects.  </p>
-        <img src={interfaceImage} alt="Interface"/>
+        <img src={interfaceImage} alt="Interface" className="imageGroup"/>
         <p>Example of interface props</p>
-        <img src={InterfacePropsExample} alt="Interface Props Example"/><br/>
+        <img src={InterfacePropsExample} alt="Interface Props Example" className="imageGroup"/><br/>
         <a href="https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html"
          rel="noreferrer noopener"
          target="_blank"

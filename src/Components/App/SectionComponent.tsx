@@ -13,13 +13,13 @@ const SectionComponent = ({ title, htmlElement }: SectionComponentProps) => {
     <>
       {propsActive ? (
         <div className="instructionalBox active">
-          <h2>{title}</h2>
-          <img
+          <h2>     <img
             src={toggleOff}
             className="exit"
             alt="Toggle off"
             onClick={(x) => setPropsActive(!propsActive)}
-          />
+          /> {title}   </h2>
+   
           <section className="section-main"> {htmlElement}</section>
           <img
             src={toggleOff}
