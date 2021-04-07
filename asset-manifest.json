@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TypescriptCheatSheet/static/css/main.1a823adc.chunk.css",
-    "main.js": "/TypescriptCheatSheet/static/js/main.fc38616e.chunk.js",
-    "main.js.map": "/TypescriptCheatSheet/static/js/main.fc38616e.chunk.js.map",
+    "main.css": "/TypescriptCheatSheet/static/css/main.5ba3359c.chunk.css",
+    "main.js": "/TypescriptCheatSheet/static/js/main.db688ba4.chunk.js",
+    "main.js.map": "/TypescriptCheatSheet/static/js/main.db688ba4.chunk.js.map",
     "runtime-main.js": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js",
     "runtime-main.js.map": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js.map",
     "static/js/2.afe9ed84.chunk.js": "/TypescriptCheatSheet/static/js/2.afe9ed84.chunk.js",
@@ -10,18 +10,20 @@
     "static/js/3.695022f0.chunk.js": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js",
     "static/js/3.695022f0.chunk.js.map": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js.map",
     "index.html": "/TypescriptCheatSheet/index.html",
-    "static/css/main.1a823adc.chunk.css.map": "/TypescriptCheatSheet/static/css/main.1a823adc.chunk.css.map",
+    "static/css/main.5ba3359c.chunk.css.map": "/TypescriptCheatSheet/static/css/main.5ba3359c.chunk.css.map",
     "static/js/2.afe9ed84.chunk.js.LICENSE.txt": "/TypescriptCheatSheet/static/js/2.afe9ed84.chunk.js.LICENSE.txt",
     "static/media/ComponentSetup.a49055b3.jpeg": "/TypescriptCheatSheet/static/media/ComponentSetup.a49055b3.jpeg",
     "static/media/InterfacePropsExample.684c975c.jpeg": "/TypescriptCheatSheet/static/media/InterfacePropsExample.684c975c.jpeg",
+    "static/media/PropsComponentSetupImage.2bad29c9.jpeg": "/TypescriptCheatSheet/static/media/PropsComponentSetupImage.2bad29c9.jpeg",
     "static/media/incomingProps.dbfc857f.jpeg": "/TypescriptCheatSheet/static/media/incomingProps.dbfc857f.jpeg",
     "static/media/interface.d315b9cd.jpeg": "/TypescriptCheatSheet/static/media/interface.d315b9cd.jpeg",
+    "static/media/sayKarenWhite.a7e3b86e.png": "/TypescriptCheatSheet/static/media/sayKarenWhite.a7e3b86e.png",
     "static/media/useState_setState.7cddcdd3.jpeg": "/TypescriptCheatSheet/static/media/useState_setState.7cddcdd3.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.a17407c6.js",
     "static/js/2.afe9ed84.chunk.js",
-    "static/css/main.1a823adc.chunk.css",
-    "static/js/main.fc38616e.chunk.js"
+    "static/css/main.5ba3359c.chunk.css",
+    "static/js/main.db688ba4.chunk.js"
   ]
 }
