@@ -1,5 +1,5 @@
 import Recact from "react";
-import GitCommandData from "./GitCommandsData";
+import GitCommandData from "../Data/GitCommandsData";
 
 const GitCommands = () => {
 

@@ -1,10 +1,12 @@
 import React from "react";
-import PropsSetupExample from "../Assests/PropsSetupExample.jpeg";
+import PropsComponentSetupImage from "../Assests/PropsComponentSetupImage.jpeg";
 
 const PropComponentSetup = () => {
   return (
     <>
-      <img src={PropsSetupExample} alt="Component Setup" className="imageGroup"/>
+      <img src={PropsComponentSetupImage} alt="Component Setup" className="imageGroup"/>
+
+
     </>
   );
 };
