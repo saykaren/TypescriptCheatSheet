@@ -69,7 +69,7 @@ const App = () => {
         />
         <SectionComponent
           title="Component Initial Setup with Interface Props"
-          htmlElement={PropComponentSetup}
+          htmlElement={<PropComponentSetup/>}
         />
         <SectionComponent
           title="Python Behave"
