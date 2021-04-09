@@ -16,6 +16,7 @@ import ResourceLinks from "./ResourceLinks";
 import Footer from "./Footer";
 import PropComponentSetup from "./PropComponentSetup";
 import PythonBehave from "./PythonBehave";
+import ProjectFolderSetup from "./ProjectFolderSetup";
 
 const App = () => {
   return (
@@ -74,6 +75,10 @@ const App = () => {
         <SectionComponent
           title="Python Behave"
           htmlElement={<PythonBehave />}
+        />
+        <SectionComponent
+        title="Proper Folder Structure"
+        htmlElement={<ProjectFolderSetup/>}
         />
         <SectionComponent title="Resources" htmlElement={<ResourceLinks />} />
       </section>
