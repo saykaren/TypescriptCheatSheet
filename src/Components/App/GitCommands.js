@@ -4,6 +4,7 @@ import GitCommandData from "../Data/GitCommandsData";
 const GitCommands = () => {
 
   return (
+    <>
     <table>
       <tr>
         <th className="tableColumn">Action</th>
@@ -19,6 +20,13 @@ const GitCommands = () => {
           </tr>
         ))}
     </table>
+    <section>
+      <h1>Resources</h1>
+      <a href="https://ohshitgit.com/" rel="noopener" target="_blank" >Oh Shit Git Resource</a><br/>
+      <a href="http://gitimmersion.com/lab_03.html" rel="noopener" target="_blank" >Basic Git</a><br/>
+      <a href="https://git-school.github.io/visualizing-git/" rel="noopener" target="_blank" >Visual Git</a>
+    </section>
+</>
   );
 };
 
