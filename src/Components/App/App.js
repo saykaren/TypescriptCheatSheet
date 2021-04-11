@@ -20,6 +20,7 @@ import ProjectFolderSetup from "./ProjectFolderSetup";
 import setPropsActive from "./SectionComponent";
 import BasicHTML from "./BasicHTML";
 import UseEffectHelp from "./UseEffectHelp";
+import ClassComponentHelp from "./ClassComponents";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -120,9 +121,14 @@ const App = () => {
           htmlElement={<BasicHTML />}
           propsActive={propsActive}
         />
-                <SectionComponent
+        <SectionComponent
           title="UseEffect Help"
           htmlElement={<UseEffectHelp />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
+          title="Class Component Help"
+          htmlElement={<ClassComponentHelp />}
           propsActive={propsActive}
         />
         <SectionComponent
