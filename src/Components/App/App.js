@@ -19,6 +19,7 @@ import PythonBehave from "./PythonBehave";
 import ProjectFolderSetup from "./ProjectFolderSetup";
 import setPropsActive from "./SectionComponent";
 import BasicHTML from "./BasicHTML";
+import UseEffectHelp from "./UseEffectHelp";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -117,6 +118,11 @@ const App = () => {
         <SectionComponent
           title="HTML Basic"
           htmlElement={<BasicHTML />}
+          propsActive={propsActive}
+        />
+                <SectionComponent
+          title="UseEffect Help"
+          htmlElement={<UseEffectHelp />}
           propsActive={propsActive}
         />
         <SectionComponent
