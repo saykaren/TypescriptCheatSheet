@@ -5,7 +5,7 @@ const BasicHTML = () => {
     <>
       <p>
         {
-          '<a href="https://www.sayKaren.com" target=”_blank” add to rel=”noopener noreferrer”>SayKaren</a>'
+          '<a href="https://saykaren.com" target="_blank" rel="noopener noreferrer"> sayKaren</a>'
         }
       </p>
     </>
