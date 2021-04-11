@@ -18,6 +18,7 @@ import PropComponentSetup from "./PropComponentSetup";
 import PythonBehave from "./PythonBehave";
 import ProjectFolderSetup from "./ProjectFolderSetup";
 import setPropsActive from "./SectionComponent";
+import BasicHTML from "./BasicHTML";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -111,6 +112,11 @@ const App = () => {
         <SectionComponent
           title="Proper Folder Structure"
           htmlElement={<ProjectFolderSetup />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
+          title="HTML Basic"
+          htmlElement={<BasicHTML />}
           propsActive={propsActive}
         />
         <SectionComponent
