@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/TypescriptCheatSheet/static/css/main.e59a729e.chunk.css",
-    "main.js": "/TypescriptCheatSheet/static/js/main.22b8c88a.chunk.js",
-    "main.js.map": "/TypescriptCheatSheet/static/js/main.22b8c88a.chunk.js.map",
+    "main.css": "/TypescriptCheatSheet/static/css/main.53d3b6c0.chunk.css",
+    "main.js": "/TypescriptCheatSheet/static/js/main.16b73c47.chunk.js",
+    "main.js.map": "/TypescriptCheatSheet/static/js/main.16b73c47.chunk.js.map",
     "runtime-main.js": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js",
     "runtime-main.js.map": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js.map",
     "static/js/2.6bc1a905.chunk.js": "/TypescriptCheatSheet/static/js/2.6bc1a905.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.695022f0.chunk.js": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js",
     "static/js/3.695022f0.chunk.js.map": "/TypescriptCheatSheet/static/js/3.695022f0.chunk.js.map",
     "index.html": "/TypescriptCheatSheet/index.html",
-    "static/css/main.e59a729e.chunk.css.map": "/TypescriptCheatSheet/static/css/main.e59a729e.chunk.css.map",
+    "static/css/main.53d3b6c0.chunk.css.map": "/TypescriptCheatSheet/static/css/main.53d3b6c0.chunk.css.map",
     "static/js/2.6bc1a905.chunk.js.LICENSE.txt": "/TypescriptCheatSheet/static/js/2.6bc1a905.chunk.js.LICENSE.txt",
     "static/media/ComponentSetup.a49055b3.jpeg": "/TypescriptCheatSheet/static/media/ComponentSetup.a49055b3.jpeg",
     "static/media/InterfacePropsExample.684c975c.jpeg": "/TypescriptCheatSheet/static/media/InterfacePropsExample.684c975c.jpeg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.a17407c6.js",
     "static/js/2.6bc1a905.chunk.js",
-    "static/css/main.e59a729e.chunk.css",
-    "static/js/main.22b8c88a.chunk.js"
+    "static/css/main.53d3b6c0.chunk.css",
+    "static/js/main.16b73c47.chunk.js"
   ]
 }
