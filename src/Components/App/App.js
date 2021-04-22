@@ -22,6 +22,7 @@ import BasicHTML from "./BasicHTML";
 import UseEffectHelp from "./UseEffectHelp";
 import ClassComponentHelp from "./ClassComponents";
 import ADACompliant from "./ADACompliant";
+import FreeEbooks from "./FreeEbooks";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -135,6 +136,11 @@ const App = () => {
                 <SectionComponent
           title="ADA Compliant"
           htmlElement={<ADACompliant />}
+          propsActive={propsActive}
+        />
+               <SectionComponent
+          title="Free eBooks"
+          htmlElement={<FreeEbooks />}
           propsActive={propsActive}
         />
         <SectionComponent
