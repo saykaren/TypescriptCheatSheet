@@ -23,6 +23,7 @@ import UseEffectHelp from "./UseEffectHelp";
 import ClassComponentHelp from "./ClassComponents";
 import ADACompliant from "./ADACompliant";
 import FreeEbooks from "./FreeEbooks";
+import RegEx from "./RegEx";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -142,6 +143,11 @@ const App = () => {
           title="Free eBooks"
           htmlElement={<FreeEbooks />}
           propsActive={propsActive}
+        />
+        <SectionComponent
+        title="RegEx and Online CheatSheet"
+        htmlElement={<RegEx/>}
+        propsActive={propsActive}
         />
         <SectionComponent
           title="Resources"
