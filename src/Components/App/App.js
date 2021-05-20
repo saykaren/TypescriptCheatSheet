@@ -24,6 +24,7 @@ import ClassComponentHelp from "./ClassComponents";
 import ADACompliant from "./ADACompliant";
 import FreeEbooks from "./FreeEbooks";
 import RegEx from "./RegEx";
+import MockData from "./MockData";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -147,6 +148,11 @@ const App = () => {
         <SectionComponent
         title="RegEx and Online CheatSheet"
         htmlElement={<RegEx/>}
+        propsActive={propsActive}
+        />
+                <SectionComponent
+        title="APIs and Mock Data"
+        htmlElement={<MockData/>}
         propsActive={propsActive}
         />
         <SectionComponent
