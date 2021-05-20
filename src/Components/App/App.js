@@ -27,6 +27,7 @@ import RegEx from "./RegEx";
 import MockData from "./MockData";
 import Tutorials from "./Tutorials";
 
+
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
   const [loading, setLoading] = useState(false);
