@@ -26,7 +26,7 @@ import FreeEbooks from "./FreeEbooks";
 import RegEx from "./RegEx";
 import MockData from "./MockData";
 import Tutorials from "./Tutorials";
-
+import TestingTesting from "./TestingTesting";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -162,11 +162,17 @@ const App = () => {
           htmlElement={<Tutorials />}
           propsActive={propsActive}
         />
+                <SectionComponent
+          title="Testing Testing...."
+          htmlElement={<TestingTesting />}
+          propsActive={propsActive}
+        />
         <SectionComponent
           title="Resources"
           htmlElement={<ResourceLinks />}
           propsActive={propsActive}
         />
+
       </section>
       <Footer />
     </div>
