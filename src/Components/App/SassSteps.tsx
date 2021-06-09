@@ -31,6 +31,11 @@ const SassSteps = () => {
             </li>
             <li>Example .App-link{`{color: $secondary-color;}`}</li>
           </ul>
+          <h3>Resources</h3>
+
+<a href="https://dev.to/ruppysuppy/master-useful-css-pseudo-classes-lh2" target="_blank" rel="noopener noreferrer"> CSS Pseudo-Classes</a>
+
+
         </div>
     </>
   );
