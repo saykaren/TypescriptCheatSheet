@@ -29,14 +29,12 @@ import Tutorials from "./Tutorials";
 import TestingTesting from "./TestingTesting";
 import SQLResources from "./SQLResources";
 import ReactQuery from "./ReactQuery";
+import ReactSnippets from "./ReactSnippets";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
   const [loading, setLoading] = useState(false);
   const [propsActive, setPropsActive] = useState(totalPropsActive);
-
-  console.log({ totalPropsActive });
-  console.log({ loading });
 
   useEffect(() => {
     setLoading(false);
@@ -174,9 +172,14 @@ const App = () => {
           htmlElement={<SQLResources />}
           propsActive={propsActive}
         />
-                <SectionComponent
+        <SectionComponent
           title="React-Query"
           htmlElement={<ReactQuery />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
+          title="React Snippets"
+          htmlElement={<ReactSnippets />}
           propsActive={propsActive}
         />
         <SectionComponent

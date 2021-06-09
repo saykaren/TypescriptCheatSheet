@@ -1,7 +1,7 @@
 import React from "react";
-import GitCommandData from "../Data/GitCommandsData";
+import ReactSnippetsData from "../Data/ReactSnippetsData";
 
-const GitCommands = () => {
+const ReactSnippets = () => {
 
   return (
     <>
@@ -11,8 +11,8 @@ const GitCommands = () => {
         <th className="tableColumn">Git command</th>
         <th className="tableColumn">Note</th>
       </tr>
-      {GitCommandData &&
-        GitCommandData.map((x, index) => (
+      {ReactSnippetsData &&
+        ReactSnippetsData.map((x, index) => (
           <tr>
             <td className="tableColumn">{x.action}</td>
             <td className="tableColumn">{x.command}</td>
@@ -30,4 +30,4 @@ const GitCommands = () => {
   );
 };
 
-export default GitCommands;
+export default ReactSnippets;
