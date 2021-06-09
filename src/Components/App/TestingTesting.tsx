@@ -41,6 +41,36 @@ Enzyme.configure({ adapter: new Adapter() });`}</p>
         {" "}
         React Query Based Component
       </a>
+      <br />
+      <br />
+      <a
+        href="https://enzymejs.github.io/enzyme/docs/installation/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        Enzyme Installation
+      </a>
+      <br />
+      <br />
+      <a
+        href="https://medium.com/codeclan/testing-react-with-jest-and-enzyme-20505fec4675"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        Enzyme Testing - Medium article
+      </a>
+      <br />
+      <br />
+      <a
+        href="https://medium.com/@kaiz.hudda/how-to-setup-jest-enzyme-in-your-existing-react-app-in-5-mins-bf21841f4738"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {" "}
+        How to Setup Jest and Enyme in React App in 5 minutes
+      </a>
     </>
   );
 };
