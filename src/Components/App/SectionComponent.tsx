@@ -15,7 +15,6 @@ const SectionComponent = ({
 }: SectionComponentProps) => {
   const [forceOpen, setForceOpen] = useState(false);
 
-  console.log({ propsActive });
   return (
     <>
       {propsActive || forceOpen ? (
