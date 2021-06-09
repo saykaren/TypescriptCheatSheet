@@ -43,7 +43,7 @@ export const GitCommandData = [
   { action: "Rewrite commits", command: "git rebase -i main - autosquash", note: "I is for interactive", category: "Branching" },
   { action: "?", command: "git reflog", note: "", category: "Other" },
   { action: "Push code up", command: "git push -u origin HEAD", note: "If you are on the latest verision of the branch", category: "Branching" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
+  { action: "Install specific version", command: "npm install [package-name]@[version-number]", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
