@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/TypescriptCheatSheet/static/css/main.1156b7fd.chunk.css",
-    "main.js": "/TypescriptCheatSheet/static/js/main.bd80124e.chunk.js",
-    "main.js.map": "/TypescriptCheatSheet/static/js/main.bd80124e.chunk.js.map",
+    "main.js": "/TypescriptCheatSheet/static/js/main.831b4e6f.chunk.js",
+    "main.js.map": "/TypescriptCheatSheet/static/js/main.831b4e6f.chunk.js.map",
     "runtime-main.js": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js",
     "runtime-main.js.map": "/TypescriptCheatSheet/static/js/runtime-main.a17407c6.js.map",
     "static/js/2.6bc1a905.chunk.js": "/TypescriptCheatSheet/static/js/2.6bc1a905.chunk.js",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.a17407c6.js",
     "static/js/2.6bc1a905.chunk.js",
     "static/css/main.1156b7fd.chunk.css",
-    "static/js/main.bd80124e.chunk.js"
+    "static/js/main.831b4e6f.chunk.js"
   ]
 }
