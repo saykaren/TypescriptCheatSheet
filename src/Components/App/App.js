@@ -28,6 +28,7 @@ import MockData from "./MockData";
 import Tutorials from "./Tutorials";
 import TestingTesting from "./TestingTesting";
 import SQLResources from "./SQLResources";
+import ReactQuery from "./ReactQuery";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -171,6 +172,11 @@ const App = () => {
         <SectionComponent
           title="SQL"
           htmlElement={<SQLResources />}
+          propsActive={propsActive}
+        />
+                <SectionComponent
+          title="React-Query"
+          htmlElement={<ReactQuery />}
           propsActive={propsActive}
         />
         <SectionComponent
