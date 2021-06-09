@@ -27,6 +27,7 @@ import RegEx from "./RegEx";
 import MockData from "./MockData";
 import Tutorials from "./Tutorials";
 import TestingTesting from "./TestingTesting";
+import SQLResources from "./SQLResources";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -162,9 +163,14 @@ const App = () => {
           htmlElement={<Tutorials />}
           propsActive={propsActive}
         />
-                <SectionComponent
+        <SectionComponent
           title="Testing Testing...."
           htmlElement={<TestingTesting />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
+          title="SQL"
+          htmlElement={<SQLResources />}
           propsActive={propsActive}
         />
         <SectionComponent
@@ -172,7 +178,6 @@ const App = () => {
           htmlElement={<ResourceLinks />}
           propsActive={propsActive}
         />
-
       </section>
       <Footer />
     </div>
