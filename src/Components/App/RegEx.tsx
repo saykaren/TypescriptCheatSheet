@@ -23,6 +23,22 @@ const RegEx = () => {
         JS / CSS / HTML Cheatsheet
       </a>
       <br />
+      <a
+        href="https://jex.im/regulex/#!flags=&re=%5E(a%2B%7Cb%5Ba-f%5D)*%3F%24"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        Regulex - Visual resource of RegEx
+      </a>
+      <br />
+      <a
+        href="https://regex101.com"
+        rel="noreferrer noopener"
+        target="_blank"
+      >
+        RegEx sandbox and explantion
+      </a>
+      <br />
     </>
   );
 };
