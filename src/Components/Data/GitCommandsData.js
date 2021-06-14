@@ -44,10 +44,10 @@ export const GitCommandData = [
   { action: "?", command: "git reflog", note: "", category: "Other" },
   { action: "Push code up", command: "git push -u origin HEAD", note: "If you are on the latest verision of the branch", category: "Branching" },
   { action: "Install specific version", command: "npm install [package-name]@[version-number]", note: "", category: "Basics" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
-  { action: "Start", command: "git", note: "", category: "Basics" },
+  { action: "Up one level", command: "~", note: "", category: "Basics" },
+  { action: "Go up one level from head", command: "Git checkout HEAD~", note: "", category: "Basics" },
+  { action: "Checks out 2 from where you are at", command: "Git checkout HEAD~2", note: "Goes back 2 commits", category: "Basics" },
+  { action: "1 commit back from main", command: "Git checkout main~1 ", note: "", category: "Basics" },
   { action: "Start", command: "git", note: "", category: "Basics" },
 
 
