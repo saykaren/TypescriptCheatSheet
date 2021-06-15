@@ -259,11 +259,11 @@ export const GitCommandData = [
     note: "",
     category: "Basics",
   },
-  { action: "Up one level", command: "~", note: "", category: "Basics" },
+  { action: "Up one level", command: "~", note: "Tilde", category: "Basics" },
   {
     action: "Go up one level from head",
     command: "Git checkout HEAD~",
-    note: "",
+    note: "Tilde",
     category: "Basics",
   },
   {
