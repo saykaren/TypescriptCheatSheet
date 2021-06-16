@@ -246,7 +246,7 @@ export const GitCommandData = [
     note: "I is for interactive",
     category: "Branching",
   },
-  { action: "?", command: "git reflog", note: "", category: "Other" },
+  { action: "Shows all the commits", command: "git reflog", note: "Shows all the commits that have happened", category: "Other" },
   {
     action: "Push code up",
     command: "git push -u origin HEAD",
