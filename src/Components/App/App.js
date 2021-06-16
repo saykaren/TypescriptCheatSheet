@@ -30,6 +30,7 @@ import TestingTesting from "./TestingTesting";
 import SQLResources from "./SQLResources";
 import ReactQuery from "./ReactQuery";
 import ReactSnippets from "./ReactSnippets";
+import CustomDomain from "./CustomDomain";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -183,6 +184,11 @@ const App = () => {
           propsActive={propsActive}
         />
         <SectionComponent
+          title="Custom Domain"
+          htmlElement={<CustomDomain />}
+          propsActive={propsActive}
+        />
+              <SectionComponent
           title="Resources"
           htmlElement={<ResourceLinks />}
           propsActive={propsActive}
