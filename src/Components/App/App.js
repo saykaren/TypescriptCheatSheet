@@ -31,6 +31,7 @@ import SQLResources from "./SQLResources";
 import ReactQuery from "./ReactQuery";
 import ReactSnippets from "./ReactSnippets";
 import CustomDomain from "./CustomDomain";
+import Conflicts from "./Conflicts";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -188,7 +189,12 @@ const App = () => {
           htmlElement={<CustomDomain />}
           propsActive={propsActive}
         />
-              <SectionComponent
+        <SectionComponent
+          title="Conflicts Fixed!"
+          htmlElement={<Conflicts />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
           title="Resources"
           htmlElement={<ResourceLinks />}
           propsActive={propsActive}
