@@ -32,6 +32,7 @@ import ReactQuery from "./ReactQuery";
 import ReactSnippets from "./ReactSnippets";
 import CustomDomain from "./CustomDomain";
 import Conflicts from "./Conflicts";
+import Alias from "./Alias";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -193,6 +194,11 @@ const App = () => {
         <SectionComponent
           title="Conflicts Fixed!"
           htmlElement={<Conflicts />}
+          propsActive={propsActive}
+        />
+        <SectionComponent
+          title="Alias"
+          htmlElement={<Alias />}
           propsActive={propsActive}
         />
         <SectionComponent
