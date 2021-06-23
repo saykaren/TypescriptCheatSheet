@@ -1,6 +1,6 @@
-@import './variables.scss';
+@import "./variables.scss";
 
-#footer{
+#footer {
   width: 100%;
   height: auto;
   word-wrap: break-word;
@@ -12,11 +12,21 @@
   padding: 10px;
 }
 
-.footerDetails{
+.footerDetails {
+  font-size: 12px;
+  text-align: end;
+}
+
+.footerSayKaren {
   height: 3.5rem;
+}
+
+.footer_icon {
+  margin-right: 10px;
+  float: right;
 }
 
 .music {
   margin-top: 20px;
-  opacity: .65;
+  opacity: 0.65;
 }
