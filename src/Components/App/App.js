@@ -49,6 +49,7 @@ const App = () => {
   };
 
   return (
+    <>
     <div className="App">
       <header className="App-header" onClick={(x) => toggleAction()}>
         sayKaren's Cheatsheet
@@ -200,8 +201,10 @@ const App = () => {
           propsActive={propsActive}
         />
       </section>
-      <Footer />
+   
     </div>
+       <Footer />
+       </>
   );
 };
 
