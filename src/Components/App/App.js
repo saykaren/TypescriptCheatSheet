@@ -33,6 +33,7 @@ import ReactSnippets from "./ReactSnippets";
 import CustomDomain from "./CustomDomain";
 import Conflicts from "./Conflicts";
 import Alias from "./Alias";
+import SectionData from "./SectionData";
 
 const App = () => {
   const [totalPropsActive, setTotalPropsActive] = useState(false);
@@ -51,166 +52,27 @@ const App = () => {
 
   return (
     <>
-    <div className="App">
-      <header className="App-header" onClick={(x) => toggleAction()}>
-        sayKaren's Cheatsheet
-      </header>
-      <section className="instructionSection">
-        <SectionComponent
-          title={"Props Examples - Passing useState Items"}
-          htmlElement={<PropsUseState />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title={"Interface Examples"}
-          htmlElement={<InterfaceExamples />}
-          propsActive={propsActive}
-        />
-
-        <SectionComponent
-          title="Character References and Icons"
-          htmlElement={<CharacterReferences />}
-          propsActive={propsActive}
-        />
-
-        <SectionComponent
-          title="Create a React App"
-          htmlElement={<CreateReactAppSteps />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title={"Git Commands"}
-          htmlElement={<GitCommands />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title={"Add SASS Step by Step"}
-          htmlElement={<SassSteps />}
-          propsActive={propsActive}
-        />
-
-        <SectionComponent
-          title="Functional Component Intial Setup"
-          htmlElement={<FunctionalComponent />}
-          propsActive={propsActive}
-        />
-        <SectionComponent title="Filter Fun" htmlElement={<FilterFun />} />
-        <SectionComponent
-          title="Reduce Racing"
-          htmlElement={<ReduceRacing />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Mapping Madness"
-          htmlElement={<MappingMadness />}
-          propsActive={propsActive}
-        />
-
-        <SectionComponent
-          title="Adding TypeScript"
-          htmlElement={<AddTypeScript />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Component Initial Setup with Interface Props"
-          htmlElement={<PropComponentSetup />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Python Behave"
-          htmlElement={<PythonBehave />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Proper Folder Structure"
-          htmlElement={<ProjectFolderSetup />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="HTML Basic"
-          htmlElement={<BasicHTML />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="UseEffect Help"
-          htmlElement={<UseEffectHelp />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Class Component Help"
-          htmlElement={<ClassComponentHelp />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="ADA Compliant"
-          htmlElement={<ADACompliant />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Free eBooks"
-          htmlElement={<FreeEbooks />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="RegEx and Online CheatSheet"
-          htmlElement={<RegEx />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="APIs and Mock Data"
-          htmlElement={<MockData />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Tutorials"
-          htmlElement={<Tutorials />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Testing Testing...."
-          htmlElement={<TestingTesting />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="SQL"
-          htmlElement={<SQLResources />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="React-Query"
-          htmlElement={<ReactQuery />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="React Snippets"
-          htmlElement={<ReactSnippets />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Custom Domain"
-          htmlElement={<CustomDomain />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Conflicts Fixed!"
-          htmlElement={<Conflicts />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Alias"
-          htmlElement={<Alias />}
-          propsActive={propsActive}
-        />
-        <SectionComponent
-          title="Resources"
-          htmlElement={<ResourceLinks />}
-          propsActive={propsActive}
-        />
-      </section>
-   
-    </div>
-       <Footer />
-       </>
+      <div className="App">
+        <header className="App-header" onClick={(x) => toggleAction()}>
+          sayKaren's Cheatsheet
+        </header>
+        <section className="instructionSection">
+          {SectionData.data
+            .sort((a, b) => a.title.localeCompare(b.title))
+            .map((item, indexData) => (
+              <>
+                <SectionComponent
+                  title={item.title}
+                  htmlElement={item.componentTitle}
+                  propsActive={propsActive}
+                  key={indexData}
+                />
+              </>
+            ))}
+        </section>
+      </div>
+      <Footer />
+    </>
   );
 };
 
