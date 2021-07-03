@@ -19,15 +19,9 @@ const SectionComponent = ({
     <>
       {propsActive || forceOpen ? (
         <div className="instructionalBox active">
-          <h2>
+          <h2 onClick={(x) => setForceOpen(!forceOpen)}>
             {" "}
-            <img
-              src={toggleOff}
-              className="exit"
-              alt="Toggle off"
-              onClick={(x) => setForceOpen(!forceOpen)}
-            />{" "}
-            {title}{" "}
+            <img src={toggleOff} className="exit" alt="Toggle off" /> {title}{" "}
           </h2>
 
           <section className="section-main"> {htmlElement}</section>
