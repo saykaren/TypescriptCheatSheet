@@ -43,7 +43,7 @@ const SectionData = {
       componentTitle: <InterfaceExamples />,
     },
     {
-      title: "Character References and Icons",
+      title: "HTML Character References, Photos and Icons",
       componentTitle: <CharacterReferences />,
     },
     { title: "Create a React App", componentTitle: <CreateReactAppSteps /> },
