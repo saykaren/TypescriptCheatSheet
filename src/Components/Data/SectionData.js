@@ -31,6 +31,7 @@ import Alias from "../App/Alias";
 import SortEmUp from "../App/SortEmUp";
 import PhpTips from "../App/PhpTips";
 import Squash from "../App/Squash";
+import Errors from "../App/Errors";
 
 const SectionData = {
   data: [
@@ -159,6 +160,10 @@ const SectionData = {
     {
       title: "Squashing",
       componentTitle: <Squash />,
+    },
+    {
+      title: "Error",
+      componentTitle: <Errors />,
     },
   ],
 };
