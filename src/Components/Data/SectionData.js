@@ -30,6 +30,7 @@ import Conflicts from "../App/Conflicts";
 import Alias from "../App/Alias";
 import SortEmUp from "../App/SortEmUp";
 import PhpTips from "../App/PhpTips";
+import Squash from "../App/Squash";
 
 const SectionData = {
   data: [
@@ -154,6 +155,10 @@ const SectionData = {
     {
       title: "Php Tips",
       componentTitle: <PhpTips />,
+    },
+    {
+      title: "Squashing",
+      componentTitle: <Squash />,
     },
   ],
 };
