@@ -305,9 +305,9 @@ export const GitCommandData = [
     note: "Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin",
     category: "Basics",
   },
-  { action: "START", command: "git", note: "", category: "Basics" },
-  { action: "START", command: "git", note: "", category: "Basics" },
-  { action: "START", command: "git", note: "", category: "Basics" },
+  // { action: "START", command: "git", note: "", category: "Basics" },
+  // { action: "START", command: "git", note: "", category: "Basics" },
+  // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
 export default GitCommandData;
