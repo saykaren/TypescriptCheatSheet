@@ -1,36 +1,34 @@
-import GitCommands from "./GitCommands";
-import FunctionalComponent from "./FunctionalComponent";
-import PropsUseState from "./PropsUseState";
-import InterfaceExamples from "./InterfaceExamples";
-import AddTypeScript from "./AddingTypeScript";
-import SectionComponent from "./SectionComponent";
-import CreateReactAppSteps from "./CreateReactAppSteps.tsx";
-import CharacterReferences from "./CharacterReferences.tsx";
-import SassSteps from "./SassSteps";
-import FilterFun from "./FilterFun";
-import ReduceRacing from "./ReduceRacing";
-import MappingMadness from "./MappingMadness";
-import ResourceLinks from "./ResourceLinks";
-import Footer from "./Footer";
-import PropComponentSetup from "./PropComponentSetup";
-import PythonBehave from "./PythonBehave";
-import ProjectFolderSetup from "./ProjectFolderSetup";
-import setPropsActive from "./SectionComponent";
-import BasicHTML from "./BasicHTML";
-import UseEffectHelp from "./UseEffectHelp";
-import ClassComponentHelp from "./ClassComponents";
-import ADACompliant from "./ADACompliant";
-import FreeEbooks from "./FreeEbooks";
-import RegEx from "./RegEx";
-import MockData from "./MockData";
-import Tutorials from "./Tutorials";
-import TestingTesting from "./TestingTesting";
-import SQLResources from "./SQLResources";
-import ReactQuery from "./ReactQuery";
-import ReactSnippets from "./ReactSnippets";
-import CustomDomain from "./CustomDomain";
-import Conflicts from "./Conflicts";
-import Alias from "./Alias";
+import GitCommands from "../App/GitCommands";
+import FunctionalComponent from "../App/FunctionalComponent";
+import PropsUseState from "../App/PropsUseState";
+import InterfaceExamples from "../App/InterfaceExamples";
+import AddTypeScript from "../App/AddingTypeScript";
+import CreateReactAppSteps from "../App/CreateReactAppSteps.tsx";
+import CharacterReferences from "../App/CharacterReferences.tsx";
+import SassSteps from "../App/SassSteps";
+import FilterFun from "../App/FilterFun";
+import ReduceRacing from "../App/ReduceRacing";
+import MappingMadness from "../App/MappingMadness";
+import ResourceLinks from "../App/ResourceLinks";
+import PropComponentSetup from "../App/PropComponentSetup";
+import PythonBehave from "../App/PythonBehave";
+import ProjectFolderSetup from "../App/ProjectFolderSetup";
+import BasicHTML from "../App/BasicHTML";
+import UseEffectHelp from "../App/UseEffectHelp";
+import ClassComponentHelp from "../App/ClassComponents";
+import ADACompliant from "../App/ADACompliant";
+import FreeEbooks from "../App/FreeEbooks";
+import RegEx from "../App/RegEx";
+import MockData from "../App/MockData";
+import Tutorials from "../App/Tutorials";
+import TestingTesting from "../App/TestingTesting";
+import SQLResources from "../App/SQLResources";
+import ReactQuery from "../App/ReactQuery";
+import ReactSnippets from "../App/ReactSnippets";
+import CustomDomain from "../App/CustomDomain";
+import Conflicts from "../App/Conflicts";
+import Alias from "../App/Alias";
+import SortEmUp from "../App/SortEmUp";
 
 const SectionData = {
   data: [
@@ -147,6 +145,10 @@ const SectionData = {
     {
       title: "Resources",
       componentTitle: <ResourceLinks />,
+    },
+    {
+      title: "SortEmUp",
+      componentTitle: <SortEmUp />,
     },
   ],
 };
