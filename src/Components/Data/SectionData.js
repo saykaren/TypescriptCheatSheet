@@ -29,6 +29,7 @@ import CustomDomain from "../App/CustomDomain";
 import Conflicts from "../App/Conflicts";
 import Alias from "../App/Alias";
 import SortEmUp from "../App/SortEmUp";
+import PhpTips from "../App/PhpTips";
 
 const SectionData = {
   data: [
@@ -149,6 +150,10 @@ const SectionData = {
     {
       title: "SortEmUp",
       componentTitle: <SortEmUp />,
+    },
+    {
+      title: "Php Tips",
+      componentTitle: <PhpTips />,
     },
   ],
 };
