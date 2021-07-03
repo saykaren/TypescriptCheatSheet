@@ -289,7 +289,7 @@ export const GitCommandData = [
   {
     action: "Fetches and merges (merge isn't always safe",
     command: "git pull",
-    note: "Merge isn't always safe",
+    note: "Merge isn't always safe.",
     category: "Basics",
   },
   {
@@ -302,7 +302,7 @@ export const GitCommandData = [
   {
     action: "Latest Code with Rebase",
     command: "git pull --rebase origin master",
-    note: "Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin",
+    note: "Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin.",
     category: "Basics",
   },
   { action: "START", command: "git", note: "", category: "Basics" },
