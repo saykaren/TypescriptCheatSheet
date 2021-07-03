@@ -26,6 +26,7 @@ const GitCommands = () => {
       <a href="http://gitimmersion.com/lab_03.html" rel="noopener" target="_blank" >Basic Git</a><br/>
       <a href="https://git-school.github.io/visualizing-git/" rel="noopener" target="_blank" >Visual Git</a><br/>
       <a href="https://gitup.co/" rel="noopener" target="_blank" >GitUp</a>
+      <a href="https://chris.beams.io/posts/git-commit/" rel="noopener" target="_blank" >How to Write Commit Messages</a>
     </section>
 </>
   );
