@@ -24,7 +24,8 @@ const GitCommands = () => {
       <h1>Resources</h1>
       <a href="https://ohshitgit.com/" rel="noopener" target="_blank" >Oh Shit Git Resource</a><br/>
       <a href="http://gitimmersion.com/lab_03.html" rel="noopener" target="_blank" >Basic Git</a><br/>
-      <a href="https://git-school.github.io/visualizing-git/" rel="noopener" target="_blank" >Visual Git</a>
+      <a href="https://git-school.github.io/visualizing-git/" rel="noopener" target="_blank" >Visual Git</a><br/>
+      <a href="https://gitup.co/" rel="noopener" target="_blank" >GitUp</a>
     </section>
 </>
   );
