@@ -32,6 +32,7 @@ import SortEmUp from "../App/SortEmUp";
 import PhpTips from "../App/PhpTips";
 import Squash from "../App/Squash";
 import Errors from "../App/Errors";
+import LearningResources from "../App/LearningResources";
 
 const SectionData = {
   data: [
@@ -164,6 +165,10 @@ const SectionData = {
     {
       title: "Error",
       componentTitle: <Errors />,
+    },
+    {
+      title: "Learning Exercises",
+      componentTitle: <LearningResources />,
     },
   ],
 };
