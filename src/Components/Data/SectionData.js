@@ -170,9 +170,8 @@ const SectionData = {
     {
       title: "Vagrant",
       componentTitle: <VagrantCommands />,
-      title: "Learning Exercises",
-      componentTitle: <LearningResources />,
     },
+    { title: "Learning Exercises", componentTitle: <LearningResources /> },
   ],
 };
 
