@@ -46,6 +46,14 @@ var footer = Quality:`}{" "}
             </li>
           </ul>
         </li>
+        <li>
+            Package.json
+            <ul>
+                <li>
+                <a href="https://flaviocopes.com/package-json/" target="_blank" rel="noopener noreferrer"> Package.json Guide</a>
+                </li>
+            </ul>
+        </li>
       </ul>
     </div>
   );
