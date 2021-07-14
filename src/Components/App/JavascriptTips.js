@@ -95,6 +95,14 @@ var footer = Quality:`}{" "}
             </li>
           </ul>
         </li>
+        <li>
+            CRUD
+            <ul>
+                <li>
+                CRUD - A website must do all four Create, Read (hooks), Update, Delete
+                </li>
+            </ul>
+        </li>
       </ul>
     </div>
   );
