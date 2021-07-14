@@ -34,6 +34,7 @@ import Squash from "../App/Squash";
 import Errors from "../App/Errors";
 import VagrantCommands from "../App/VagrantCommands";
 import LearningResources from "../App/LearningResources";
+import JavascriptTips from "../App/JavascriptTips";
 
 const SectionData = {
   data: [
@@ -172,6 +173,7 @@ const SectionData = {
       componentTitle: <VagrantCommands />,
     },
     { title: "Learning Exercises", componentTitle: <LearningResources /> },
+    { title: "Javascript Tips", componentTitle: <JavascriptTips /> },
   ],
 };
 
