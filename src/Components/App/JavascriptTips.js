@@ -47,20 +47,53 @@ var footer = Quality:`}{" "}
           </ul>
         </li>
         <li>
-            Package.json
-            <ul>
-                <li>
-                <a href="https://flaviocopes.com/package-json/" target="_blank" rel="noopener noreferrer"> Package.json Guide</a>
-                </li>
-            </ul>
+          Package.json
+          <ul>
+            <li>
+              <a
+                href="https://flaviocopes.com/package-json/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Package.json Guide
+              </a>
+            </li>
+          </ul>
         </li>
         <li>
-            Inherited Functions
-            <ul>
-                <li>
-                To find the different inherited functions you can use for Array you can put in Array.prototype; into Chrome browser in console 
-                </li>
-            </ul>
+          Inherited Functions
+          <ul>
+            <li>
+              To find the different inherited functions you can use for Array
+              you can put in Array.prototype; into Chrome browser in console
+            </li>
+          </ul>
+        </li>
+        <li>
+          Spread Operator
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                MDN Spread syntax (...)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.dmcinfo.com/latest-thinking/blog/id/9668/5-great-uses-of-the-spread-operator-in-a-react-app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                5 Great Uses of Spread Operator in React App
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
