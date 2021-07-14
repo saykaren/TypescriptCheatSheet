@@ -94,6 +94,15 @@ const ResourceLinks = () => {
             Markdown Syntax
           </a>
         </li>
+        <li>
+          <a
+            href="https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Vim (language git is in) Tips and Tricks
+          </a>
+        </li>
       </ul>
     </>
   );
