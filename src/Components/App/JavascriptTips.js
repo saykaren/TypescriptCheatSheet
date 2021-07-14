@@ -16,6 +16,36 @@ var footer = Quality:`}{" "}
             <li>putting a value in a string rather than concat</li>
           </ul>
         </li>
+        <li>
+          Object Destructuring
+          <ul>
+            <li>
+              {`const person = {
+  firstName: "Lindsay",
+  lastName: "Criswell",
+  city: "NYC"
+}`}
+            </li>
+            <li>Destructuring lets us streamline this code</li>
+            <li>{`const { firstName, lastName, city } = person;`}</li>
+            <li>
+              Access it by{" "}
+              {`console.log(firstName) // Lindsay
+`}{" "}
+              rather than {`console.log(person.firstName) // Lindsay`}
+            </li>
+            <li>
+              <a
+                href="https://medium.com/@lcriswell/destructuring-props-in-react-b1c295005ce0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                Resource
+              </a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   );
