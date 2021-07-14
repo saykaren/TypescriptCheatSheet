@@ -67,6 +67,13 @@ const ResourceLinks = () => {
           >
             6 Free Quick Wireframe Tools
           </a><br/>
+          <a
+            href="https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Vim (language git is in) Tips and Tricks
+          </a><br/>
     </>
   );
 };
