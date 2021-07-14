@@ -246,7 +246,12 @@ export const GitCommandData = [
     note: "I is for interactive",
     category: "Branching",
   },
-  { action: "Shows all the commits", command: "git reflog", note: "Shows all the commits that have happened", category: "Other" },
+  {
+    action: "Shows all the commits",
+    command: "git reflog",
+    note: "Shows all the commits that have happened",
+    category: "Other",
+  },
   {
     action: "Push code up",
     command: "git push -u origin HEAD",
@@ -305,7 +310,12 @@ export const GitCommandData = [
     note: "Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin.",
     category: "Basics",
   },
-  // { action: "START", command: "git", note: "", category: "Basics" },
+  {
+    action: "Fix last commit",
+    command: "git commit --amend",
+    note: "This command is convenient for adding new or updated files to the previous commit. It is also a simple way to edit or add comments to the previous commit. ",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
