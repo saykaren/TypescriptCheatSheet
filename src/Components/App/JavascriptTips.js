@@ -54,6 +54,14 @@ var footer = Quality:`}{" "}
                 </li>
             </ul>
         </li>
+        <li>
+            Inherited Functions
+            <ul>
+                <li>
+                To find the different inherited functions you can use for Array you can put in Array.prototype; into Chrome browser in console 
+                </li>
+            </ul>
+        </li>
       </ul>
     </div>
   );
