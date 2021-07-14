@@ -35,6 +35,7 @@ import Errors from "../App/Errors";
 import VagrantCommands from "../App/VagrantCommands";
 import LearningResources from "../App/LearningResources";
 import JavascriptTips from "../App/JavascriptTips";
+import FetchDataExamples from "../App/FetchDataExamples";
 
 const SectionData = {
   data: [
@@ -174,6 +175,7 @@ const SectionData = {
     },
     { title: "Learning Exercises", componentTitle: <LearningResources /> },
     { title: "Javascript Tips", componentTitle: <JavascriptTips /> },
+    { title: "Fetch Data Examples", componentTitle: <FetchDataExamples /> },
   ],
 };
 
