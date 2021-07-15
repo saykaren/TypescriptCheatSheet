@@ -103,6 +103,24 @@ const ResourceLinks = () => {
             Vim (language git is in) Tips and Tricks
           </a>
         </li>
+        <li>
+          <a
+            href="https://pin.it/2olE041"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Pinterest Colors
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://hookagency.com/website-color-schemes/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Website Color Schemes 2021
+          </a>
+        </li>
       </ul>
     </>
   );
