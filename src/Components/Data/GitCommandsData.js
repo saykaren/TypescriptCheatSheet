@@ -316,7 +316,12 @@ export const GitCommandData = [
     note: "This command is convenient for adding new or updated files to the previous commit. It is also a simple way to edit or add comments to the previous commit. ",
     category: "Basics",
   },
-  // { action: "START", command: "git", note: "", category: "Basics" },
+  {
+    action: "Branch-Change Name",
+    command: "git branch -m <old> <new>",
+    note: "Old branch name and new branch name",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
