@@ -37,6 +37,7 @@ import LearningResources from "../App/LearningResources";
 import JavascriptTips from "../App/JavascriptTips";
 import FetchDataExamples from "../App/FetchDataExamples";
 import RestfulAPI from "../App/RestfulAPI";
+import FilterSteps from "../App/FilterSteps";
 
 const SectionData = {
   data: [
@@ -178,6 +179,7 @@ const SectionData = {
     { title: "Javascript Tips", componentTitle: <JavascriptTips /> },
     { title: "Fetch Data Examples", componentTitle: <FetchDataExamples /> },
     { title: "Restful API", componentTitle: <RestfulAPI /> },
+    { title: "Filter Steps", componentTitle: <FilterSteps /> },
   ],
 };
 
