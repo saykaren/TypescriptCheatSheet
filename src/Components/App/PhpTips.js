@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import PhpTipsData from "../Data/PhpTipsData";
 
 const PhpTips = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <>
+      <input
+        type="text"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+        placeholder="Search"
+        id="inputSearchTerm"
+      />
       <table>
         <tr>
           <th className="tableColumn">Action</th>
@@ -11,7 +20,15 @@ const PhpTips = () => {
           <th className="tableColumn">Note</th>
         </tr>
         {PhpTipsData &&
-          PhpTipsData.map((x, index) => (
+          PhpTipsData.filter(
+            (item) =>
+              item.action
+                .toLocaleLowerCase()
+                .includes(searchTerm.toLocaleLowerCase()) ||
+              item.command
+                .toLocaleLowerCase()
+                .includes(searchTerm.toLocaleLowerCase())
+          ).map((x, index) => (
             <tr>
               <td className="tableColumn">{x.action}</td>
               <td className="tableColumn">{x.command}</td>
