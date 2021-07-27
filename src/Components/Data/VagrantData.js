@@ -13,8 +13,8 @@ export const VagrantData = [
   },
   {
     action: "Status of Running",
-    command: "vagrant global-status",
-    note: "",
+    command: "vagrant status",
+    note: "You can also do vagrant global-status",
     category: "Basics",
   },
   {
@@ -47,13 +47,38 @@ export const VagrantData = [
     note: "This command tells you the version of Vagrant you have installed as well as the latest version of Vagrant that is currently available.",
     category: "Basics",
   },
-  
-    { action: "Update plugins", command: "vagrant plugin update ", note: "Command in terminal in your vm project", category: "Basics" },
-      { action: "List of vagrant plugins", command: "vagrant plugin list", note: "", category: "Basics" },
-      { action: "List of Boxes", command: "vagrant box list", note: "gives list of boxes as they might be named different on Virtualmachine", category: "Basics" },
-      { action: "Version", command: "vagrant -v", note: "", category: "Basics" },
-      { action: "Check packages are behind", command: "brew update", note: "", category: "Basics" },
-  { action: "Install Particular Version", command: "brew cask install vagrant --version=2.2.14", note: "", category: "Basics" },
+
+  {
+    action: "Update plugins",
+    command: "vagrant plugin update ",
+    note: "Command in terminal in your vm project",
+    category: "Basics",
+  },
+  {
+    action: "List of vagrant plugins",
+    command: "vagrant plugin list",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "List of Boxes",
+    command: "vagrant box list",
+    note: "gives list of boxes as they might be named different on Virtualmachine",
+    category: "Basics",
+  },
+  { action: "Version", command: "vagrant -v", note: "", category: "Basics" },
+  {
+    action: "Check packages are behind",
+    command: "brew update",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Install Particular Version",
+    command: "brew cask install vagrant --version=2.2.14",
+    note: "",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
