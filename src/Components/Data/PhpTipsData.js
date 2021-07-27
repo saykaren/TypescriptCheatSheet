@@ -42,6 +42,12 @@ export const PhpTipsData = [
     note: "DB update to run code",
     category: "Basics",
   },
+  {
+    action: "Find in File",
+    command: "Shift+Cmd+F",
+    note: "Order matters",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
