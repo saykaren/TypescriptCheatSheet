@@ -100,6 +100,15 @@ const GitCommands = () => {
               </li>
             </ul>
           </li>
+          <li>
+          <a
+          href="https://learngitbranching.js.org/?locale=en_US"
+          rel="noopener"
+          target="_blank"
+        >
+          Play games to learn git
+        </a>
+          </li>
         </ul>
       </section>
     </>
