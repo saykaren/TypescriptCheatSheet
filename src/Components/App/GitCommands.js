@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import GitCommandData from "../Data/GitCommandsData";
 
 const GitCommands = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <>
+      <input
+        type="text"
+        value={searchTerm}
+        placeholder="Search Git Commands"
+        onChange={(e) => setSearchTerm(e.target.value)}
+        id="inputSearchTerm"
+      />
       <table>
         <tr>
           <th className="tableColumn">Action</th>
@@ -11,15 +19,19 @@ const GitCommands = () => {
           <th className="tableColumn">Note</th>
         </tr>
         {GitCommandData &&
-          GitCommandData.sort((a, b) => a.action.localeCompare(b.action)).map(
-            (x, index) => (
+          GitCommandData.filter(
+            (item) =>
+              item.action.toLocaleLowerCase().includes(searchTerm) ||
+              item.command.toLocaleLowerCase().includes(searchTerm)
+          )
+            .sort((a, b) => a.action.localeCompare(b.action))
+            .map((x, index) => (
               <tr>
                 <td className="tableColumn">{x.action}</td>
                 <td className="tableColumn">{x.command}</td>
                 <td className="tableColumn">{x.note}</td>
               </tr>
-            )
-          )}
+            ))}
       </table>
       <section>
         <h1>Resources</h1>
@@ -101,13 +113,13 @@ const GitCommands = () => {
             </ul>
           </li>
           <li>
-          <a
-          href="https://learngitbranching.js.org/?locale=en_US"
-          rel="noopener"
-          target="_blank"
-        >
-          Play games to learn git
-        </a>
+            <a
+              href="https://learngitbranching.js.org/?locale=en_US"
+              rel="noopener"
+              target="_blank"
+            >
+              Play games to learn git
+            </a>
           </li>
         </ul>
       </section>
