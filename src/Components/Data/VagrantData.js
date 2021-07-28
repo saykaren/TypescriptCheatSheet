@@ -79,6 +79,12 @@ export const VagrantData = [
     note: "",
     category: "Basics",
   },
+  {
+    action: "Update VM",
+    command: "vagrant up --provision [machine_name]",
+    note: "If DB changes are made you can provision first to see if that works before destroying and upping",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
