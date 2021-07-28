@@ -29,7 +29,7 @@ import CustomDomain from "../App/CustomDomain";
 import Conflicts from "../App/Conflicts";
 import Alias from "../App/Alias";
 import SortEmUp from "../App/SortEmUp";
-import PhpTips from "../App/PhpTips";
+import PhpStormTips from "../App/PhpStormTips";
 import Squash from "../App/Squash";
 import Errors from "../App/Errors";
 import VagrantCommands from "../App/VagrantCommands";
@@ -160,8 +160,8 @@ const SectionData = {
       componentTitle: <SortEmUp />,
     },
     {
-      title: "Php Tips",
-      componentTitle: <PhpTips />,
+      title: "PhpStorm Tips",
+      componentTitle: <PhpStormTips />,
     },
     {
       title: "Squashing",
