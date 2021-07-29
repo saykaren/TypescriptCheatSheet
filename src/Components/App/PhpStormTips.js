@@ -28,13 +28,15 @@ const PhpTips = () => {
               item.command
                 .toLocaleLowerCase()
                 .includes(searchTerm.toLocaleLowerCase())
-          ).map((x, index) => (
-            <tr>
-              <td className="tableColumn">{x.action}</td>
-              <td className="tableColumn">{x.command}</td>
-              <td className="tableColumn">{x.note}</td>
-            </tr>
-          ))}
+          )
+            .sort((a, b) => a.action.localeCompare(b.action))
+            .map((x, index) => (
+              <tr>
+                <td className="tableColumn">{x.action}</td>
+                <td className="tableColumn">{x.command}</td>
+                <td className="tableColumn">{x.note}</td>
+              </tr>
+            ))}
       </table>
       <section>
         <h1>Resources</h1>
