@@ -37,6 +37,10 @@ const AddTypeScript = () => {
         <h2>useState inline interface</h2>
         <p>{`const [data, setData] = useState<RecipeDataInterface[]>(RecipeData);`}</p>
       </div>
+      <div>
+        <p>Inline declaration it will be a string or an array of elements. </p>
+        <p>{`content: string|JSX.Element[];`}</p>
+      </div>
       <h2>Resources</h2>
       <ul>
         <li>
