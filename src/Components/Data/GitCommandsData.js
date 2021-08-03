@@ -322,7 +322,9 @@ export const GitCommandData = [
     note: "Old branch name and new branch name",
     category: "Basics",
   },
-  // { action: "START", command: "git", note: "", category: "Basics" },
+  { action: "Remove file", command: "rm <fileName>", note: "", category: "Basics" },
+  { action: "Copy", command: "cp <fileToCopy> <newFileName>", note: "", category: "Basics" },
+    // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
 export default GitCommandData;
