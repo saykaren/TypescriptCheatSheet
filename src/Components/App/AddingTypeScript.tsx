@@ -40,6 +40,10 @@ const AddTypeScript = () => {
       <div>
         <p>Inline declaration it will be a string or an array of elements. </p>
         <p>{`content: string|JSX.Element[];`}</p>
+        <p>
+          {`{title||"Error"}`} Indicates in Javascript or Typescript give the
+          title prop or show the string Error
+        </p>
       </div>
       <h2>Resources</h2>
       <ul>
