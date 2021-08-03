@@ -324,6 +324,8 @@ export const GitCommandData = [
   },
   { action: "Remove file", command: "rm <fileName>", note: "", category: "Basics" },
   { action: "Copy", command: "cp <fileToCopy> <newFileName>", note: "", category: "Basics" },
+  { action: "List of Files", command: "ls -l", note: "", category: "Basics" },
+  { action: "Lit of Files with details", command: "ls -al", note: "List of all of them even hidden ones", category: "Basics" },
     // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
