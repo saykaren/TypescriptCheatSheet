@@ -33,6 +33,11 @@ const AddTypeScript = () => {
         className="imageGroup"
       />
       <br />
+      <div>
+        <h2>useState inline interface</h2>
+        <p>{`const [data, setData] = useState<RecipeDataInterface[]>(RecipeData);`}</p>
+      </div>
+      <h2>Resources</h2>
       <ul>
         <li>
           <a
