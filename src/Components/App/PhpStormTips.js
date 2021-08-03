@@ -55,7 +55,18 @@ const PhpTips = () => {
         >
           VS Code Shortcuts
         </a>
-        <br />
+        <br /><br/>
+        <div>
+          Side tabs
+          <ul>
+            <li>
+              Project - File Structure
+            </li>
+            <li>
+              Structure - If inside a class file shows methods and functions 
+            </li>
+          </ul>
+        </div>
       </section>
     </>
   );
