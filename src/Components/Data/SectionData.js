@@ -39,6 +39,7 @@ import FetchDataExamples from "../App/FetchDataExamples";
 import RestfulAPI from "../App/RestfulAPI";
 import FilterSteps from "../App/FilterSteps";
 import PhpCode from "../App/PhpCode";
+import CssTricks from "../App/CssTricks";
 
 const SectionData = {
   data: [
@@ -182,6 +183,7 @@ const SectionData = {
     { title: "Restful API", componentTitle: <RestfulAPI /> },
     { title: "Filter Steps", componentTitle: <FilterSteps /> },
     { title: "PHP Code", componentTitle: <PhpCode /> },
+    { title: "CSS Tricks", componentTitle: <CssTricks /> },
   ],
 };
 
