@@ -31,6 +31,11 @@ const CssTricks = () => {
             CSS variables
           </a>
         </li>
+        <li>
+          user-select: none; --- disables the user from copying text from button
+          made from div. So when clicking they don't accidently select it and
+          other items text.
+        </li>
       </ul>
     </div>
   );
