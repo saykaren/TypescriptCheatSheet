@@ -144,7 +144,7 @@ const SectionData = {
       componentTitle: <ReactSnippets />,
     },
     {
-      title: "Custom Domain",
+      title: "Custom Domain - CNAME and A Record",
       componentTitle: <CustomDomain />,
     },
     {
