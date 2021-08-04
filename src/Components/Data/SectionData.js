@@ -40,6 +40,7 @@ import RestfulAPI from "../App/RestfulAPI";
 import FilterSteps from "../App/FilterSteps";
 import PhpCode from "../App/PhpCode";
 import CssTricks from "../App/CssTricks";
+import Prettier from "../App/Prettier";
 
 const SectionData = {
   data: [
@@ -184,6 +185,7 @@ const SectionData = {
     { title: "Filter Steps", componentTitle: <FilterSteps /> },
     { title: "PHP Code", componentTitle: <PhpCode /> },
     { title: "CSS Tricks", componentTitle: <CssTricks /> },
+    { title: "Prettier", componentTitle: <Prettier /> },
   ],
 };
 
