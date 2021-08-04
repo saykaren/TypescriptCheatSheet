@@ -36,6 +36,20 @@ const CssTricks = () => {
           made from div. So when clicking they don't accidently select it and
           other items text.
         </li>
+        <li>
+          div.UiButton.Disabled versus div.UiButton .Disabled
+          <ul>
+            <li>
+              div.UiButton.Disabled - requires a div element to have both the
+              class of UiButton AND Disabled to apply CSS items
+            </li>
+            <li>
+              div.UiButton .Disabled - says if the div OR an item inside of a
+              div with class UiButton has the class of Disabled these CSS items
+              will apply
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   );
