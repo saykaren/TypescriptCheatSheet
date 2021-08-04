@@ -348,6 +348,18 @@ export const GitCommandData = [
     note: "*.* says copy all files in ThisFolder regardless. You can put *.png to copy all png files or Karen.* where it will be all Karen files regardless of type of file",
     category: "Basics",
   },
+  {
+    action: "Update Project Based on package-lock.json",
+    command: "npm ci",
+    note: "If you already have node_modules in your project do npm ci to rebuild based upon the package-lock.json. Otherwise use npm install",
+    category: "Basics",
+  },
+  // {
+  //   action: " ??????? ",
+  //   command: " ??????? ",
+  //   note: " ???????? ",
+  //   category: " Basics ",
+  // },
 ];
 
 export default GitCommandData;
