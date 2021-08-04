@@ -52,6 +52,28 @@ const CustomDomain = () => {
         </li>
         <li>Now it should show your site is published in green.</li>
       </ol>
+      <ul>
+        <li>
+          <a
+            href="https://www.godaddy.com/community/Managing-Domains/SSL-and-Forwarding-with-masking/m-p/134682#M26036"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GoDaddy forwarding details - does not accept HTTPS requests with
+            masking or not. Only will work if you install SSL Certificate into
+            it.
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.godaddy.com/help/request-my-ssl-certificate-and-learn-how-to-install-it-if-youre-new-to-ssls-start-here-32151"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GoDaddy adding SSL Certificates Help
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
