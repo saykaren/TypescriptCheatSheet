@@ -322,11 +322,32 @@ export const GitCommandData = [
     note: "Old branch name and new branch name",
     category: "Basics",
   },
-  { action: "Remove file", command: "rm <fileName>", note: "", category: "Basics" },
-  { action: "Copy", command: "cp <fileToCopy> <newFileName>", note: "", category: "Basics" },
+  {
+    action: "Remove file",
+    command: "rm <fileName>",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Copy File",
+    command: "cp <fileToCopy> <newFileName>",
+    note: "",
+    category: "Basics",
+  },
   { action: "List of Files", command: "ls -l", note: "", category: "Basics" },
-  { action: "Lit of Files with details", command: "ls -al", note: "List of all of them even hidden ones", category: "Basics" },
-    // { action: "START", command: "git", note: "", category: "Basics" },
+  {
+    action: "Lit of Files with details",
+    command: "ls -al",
+    note: "List of all of them even hidden ones",
+    category: "Basics",
+  },
+  {
+    action: "Copy Folders Files ",
+    command:
+      "cp ThisFolder/*.*  ~/Desktop/karenProgram/....<location to put copy> ",
+    note: "*.* says copy all files in ThisFolder regardless. You can put *.png to copy all png files or Karen.* where it will be all Karen files regardless of type of file",
+    category: "Basics",
+  },
 ];
 
 export default GitCommandData;
