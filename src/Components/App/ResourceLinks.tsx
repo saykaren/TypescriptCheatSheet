@@ -121,6 +121,15 @@ const ResourceLinks = () => {
             Website Color Schemes 2021
           </a>
         </li>
+        <li>
+          <a
+            href="https://dev.to/getd/how-to-manage-secrets-and-configs-using-dotenv-in-node-js-and-docker-2214"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Manage Secrets and configs using dotenv in Node.js
+          </a>
+        </li>
       </ul>
     </>
   );
