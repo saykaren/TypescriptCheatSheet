@@ -311,6 +311,12 @@ export const GitCommandData = [
     category: "Basics",
   },
   {
+    action: "Latest Code with Rebase on Develop Branch",
+    command: "git rebase -i develop",
+    note: "Switch to master git pull then switch back to branch and do this command. Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin.",
+    category: "Basics",
+  },
+  {
     action: "Fix last commit",
     command: "git commit --amend",
     note: "This command is convenient for adding new or updated files to the previous commit. It is also a simple way to edit or add comments to the previous commit. ",

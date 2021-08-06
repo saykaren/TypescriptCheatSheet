@@ -48,13 +48,39 @@ export const PhpTipsData = [
     note: "Order matters",
     category: "Basics",
   },
-  { action: "Search Everywhere", command: "Double Shift", note: "", category: "Basics" },
-  { action: "Go to File", command: "Shfit+CMD+O", note: "", category: "Basics" },
+  {
+    action: "Search Everywhere",
+    command: "Double Shift",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Go to File",
+    command: "Shfit+CMD+O",
+    note: "",
+    category: "Basics",
+  },
   { action: "Recent Files", command: "CMD+E", note: "", category: "Basics" },
-  { action: "Navigation Bar", command: "CMD+Shift", note: "", category: "Basics" },
+  {
+    action: "Navigation Bar",
+    command: "CMD+Shift",
+    note: "",
+    category: "Basics",
+  },
   { action: "Search All", command: "Cmd+O", note: "", category: "Basics" },
-  { action: "Find in Files", command: "Shift+Cmd+F", note: "", category: "Basics" },
-    // { action: "START", command: "git", note: "", category: "Basics" },
+  {
+    action: "Find in Files",
+    command: "Shift+Cmd+F",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Replace in File",
+    command: "Cmd+R",
+    notes: "",
+    category: "Basics",
+  },
+  // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
 export default PhpTipsData;
