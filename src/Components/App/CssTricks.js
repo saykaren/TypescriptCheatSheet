@@ -50,6 +50,21 @@ const CssTricks = () => {
             </li>
           </ul>
         </li>
+        <li>
+          <h3>Resources</h3>
+          <ul>
+            <li>
+              <a
+                href="https://uxdesign.cc/ui-cheat-sheet-spacing-friendships-e37a6fccc407"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                CSS Friendships
+              </a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
   );
