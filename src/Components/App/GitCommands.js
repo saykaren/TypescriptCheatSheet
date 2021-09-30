@@ -26,7 +26,7 @@ const GitCommands = () => {
           )
             .sort((a, b) => a.action.localeCompare(b.action))
             .map((x, index) => (
-              <tr>
+              <tr key={index}>
                 <td className="tableColumn">{x.action}</td>
                 <td className="tableColumn">{x.command}</td>
                 <td className="tableColumn">{x.note}</td>
