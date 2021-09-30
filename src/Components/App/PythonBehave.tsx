@@ -1,6 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
+import PythonData from "../Data/PythonData";
+
 
 const PythonBehave = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <>
       <p>{`Command to start python enter python3 in terminal `}</p>
@@ -31,6 +35,16 @@ const PythonBehave = () => {
             target="_blank"
           >
             Python Resource
+          </a>
+        </ol>
+        <ol>
+          {" "}
+          <a
+            href="https://stackoverflow.com/questions/3655549/xpath-containstext-some-string-doesnt-work-when-used-with-node-with-more"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            StackOverflow - xPath Selector matches
           </a>
         </ol>
         <ol>
@@ -100,6 +114,36 @@ const PythonBehave = () => {
         </ol>
         <ol>Then wait for "5" seconds</ol>
       </ul>
+      <section>
+        <input
+        type="text"
+        value={searchTerm}
+        onChange={e=> setSearchTerm(e.target.value)}
+        placeholder="Search Tips"
+        />
+        <table>
+        <tr>
+          <th className="tableColumn">Action</th>
+          <th className="tableColumn">Git command</th>
+          <th className="tableColumn">Note</th>
+        </tr>
+        {PythonData &&
+          PythonData.filter(
+            (item) =>
+              item.action.toLocaleLowerCase().includes(searchTerm) ||
+              item.command.toLocaleLowerCase().includes(searchTerm)
+          )
+            .sort((a, b) => a.action.localeCompare(b.action))
+            .map((x, indexPy) => (
+              <tr key={indexPy}>
+                <td className="tableColumn">{x.action}</td>
+                <td className="tableColumn">{x.command}</td>
+                <td className="tableColumn">{x.note}</td>
+              </tr>
+            ))}
+      </table>
+      </section>
+   
     </>
   );
 };

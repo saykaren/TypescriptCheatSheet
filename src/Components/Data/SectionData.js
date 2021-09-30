@@ -88,7 +88,7 @@ const SectionData = {
       componentTitle: <PropComponentSetup />,
     },
     {
-      title: "Python Behave",
+      title: "Python Behave Testing",
       componentTitle: <PythonBehave />,
     },
     {
