@@ -130,6 +130,15 @@ const ResourceLinks = () => {
             Manage Secrets and configs using dotenv in Node.js
           </a>
         </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Template Literals / Template Strings (Using a variable in a string)
+          </a>
+        </li>
       </ul>
     </>
   );
