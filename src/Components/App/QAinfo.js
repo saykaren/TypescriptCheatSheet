@@ -31,7 +31,17 @@ const QAinfo = () => {
         The testing of all the branches of the code, which is tested once, is
         known as branch testing.
       </details>
+      <details><summary>HTTP Methods / HTTP Verbs</summary>
+      <ul>
+          <ol>POST - create</ol>
+          <ol>GET - Read</ol>
+          <ol>PUT - Update/Replace</ol>
+          <ol>PATCH - Update/Modify</ol>
+          <ol>DELETE - Delete</ol>
+      </ul>
+      </details>
     </section>
+
   );
 };
 
