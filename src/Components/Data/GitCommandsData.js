@@ -390,6 +390,18 @@ export const GitCommandData = [
     note: "p brings us down to the patch level (decide what to include and what not to include) steps through each change to decide if we are adding to this commit or not.",
     category: " Basics ",
   },
+  {
+    action: " Open code in vscode",
+    command: "code <file> ",
+    note: "",
+    category: " Basics ",
+  },
+  {
+    action: "Edit a file ",
+    command: "open <fileName> ",
+    note: "",
+    category: " Basics ",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
