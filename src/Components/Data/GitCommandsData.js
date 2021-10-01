@@ -378,13 +378,19 @@ export const GitCommandData = [
     note: "",
     category: "Branching",
   },
-    {
+  {
     action: "Compare two branches on specific file",
     command: "git diff <branchOne> <branchTwo> <fileName> ",
     note: " ???????? ",
     category: " Basics ",
   },
-      // {
+  {
+    action: "Patch - editor ",
+    command: " git add -p ",
+    note: "p brings us down to the patch level (decide what to include and what not to include) steps through each change to decide if we are adding to this commit or not.",
+    category: " Basics ",
+  },
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
