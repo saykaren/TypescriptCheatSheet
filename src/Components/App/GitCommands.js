@@ -121,6 +121,16 @@ const GitCommands = () => {
               Play games to learn git
             </a>
           </li>
+          <li>
+            <a
+              href="https://www.git-tower.com/learn/git/faq/git-diff/"
+              rel="noopener"
+              target="_blank"
+            >
+              Git resources on git diff - Inspecting and Comparing Changes in
+              Git
+            </a>
+          </li>
         </ul>
       </section>
     </>

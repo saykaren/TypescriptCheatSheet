@@ -235,12 +235,6 @@ export const GitCommandData = [
     category: "Branching",
   },
   {
-    action: "Difference in code",
-    command: "git diff -cached",
-    note: "",
-    category: "Branching",
-  },
-  {
     action: "Rewrite commits",
     command: "git rebase -i main - autosquash",
     note: "I is for interactive",
@@ -360,7 +354,37 @@ export const GitCommandData = [
     note: "If you already have node_modules in your project do npm ci to rebuild based upon the package-lock.json. Otherwise use npm install",
     category: "Basics",
   },
-  // {
+  {
+    action: " Difference in code ",
+    command: "git diff",
+    note: "",
+    category: "Branching",
+  },
+  {
+    action: " Local difference in code ",
+    command: "git diff --cached",
+    note: " By adding the --staged (or alternatively: --cached) option, Git will show which local changes you have already added to Staging Area (aka git add)",
+    category: "Branching",
+  },
+  {
+    action: " Concise difference view ",
+    command: "git diff --color-words",
+    note: "Another helpful option is --color-words. Instead of the classic display mode in diffs, where old and new contents are displayed in separate lines, this option shows a more concise view.",
+    category: "Branching",
+  },
+  {
+    action: "Compare two branches",
+    command: " git diff <branchOne> <branchTwo> ",
+    note: "",
+    category: "Branching",
+  },
+    {
+    action: "Compare two branches on specific file",
+    command: "git diff <branchOne> <branchTwo> <fileName> ",
+    note: " ???????? ",
+    category: " Basics ",
+  },
+      // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
