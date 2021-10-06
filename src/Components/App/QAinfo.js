@@ -31,17 +31,24 @@ const QAinfo = () => {
         The testing of all the branches of the code, which is tested once, is
         known as branch testing.
       </details>
-      <details><summary>HTTP Methods / HTTP Verbs</summary>
-      <ul>
+      <details>
+        <summary>Assert Vs Verify</summary>
+        In the case of assertions, if the assert condition is not met, test case
+        execution will be aborted. <br /> In case of verify, tests will continue
+        to run until the last test is executed even if assert conditions are not
+        met
+      </details>
+      <details>
+        <summary>HTTP Methods / HTTP Verbs</summary>
+        <ul>
           <ol>POST - create</ol>
           <ol>GET - Read</ol>
           <ol>PUT - Update/Replace</ol>
           <ol>PATCH - Update/Modify</ol>
           <ol>DELETE - Delete</ol>
-      </ul>
+        </ul>
       </details>
     </section>
-
   );
 };
 
