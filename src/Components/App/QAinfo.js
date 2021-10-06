@@ -1,8 +1,10 @@
 import * as React from "react";
+import QA from "../Assests/QA.jpg"
 
 const QAinfo = () => {
   return (
     <section>
+      <img src={QA} alt="QA" className="imageSmallGroup"/>
       <details>
         <summary>Branch Testing Versus Boundary Testing</summary>
         <h3>What is Bottom Up Testing?</h3>
