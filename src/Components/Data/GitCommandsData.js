@@ -79,7 +79,8 @@ export const GitCommandData = [
   },
   {
     action: "Resetting to Old Revision or Change head back to a given commit",
-    command: "git reset --hard <commit_hash> or git reset --mixed <commit_hash>",
+    command:
+      "git reset --hard <commit_hash> or git reset --mixed <commit_hash>",
     note: "If after one commit all should be discarded. Find hash with git reflog. --hard removes all commits after that point. --mixed keeps changes in those commits you removed in as local changes so you have those future commits as local changes but not committed to the branch.",
     category: "Branching",
   },
@@ -433,12 +434,12 @@ export const GitCommandData = [
     note: "Find hash by git reflog first",
     category: " Basics ",
   },
-  // {
-  //   action: " ??????? ",
-  //   command: " ??????? ",
-  //   note: " ???????? ",
-  //   category: " Basics ",
-  // },
+  {
+    action: "Revert Specific Commit",
+    command: "git revert <commit_hash>",
+    note: "Find hash by git reflog. Then do revert on that commit as it will allow you to do in an editor window, reverts creates a new commit that you save and close.",
+    category: " Basics ",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
