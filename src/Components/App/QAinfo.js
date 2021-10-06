@@ -32,6 +32,13 @@ const QAinfo = () => {
         known as branch testing.
       </details>
       <details>
+        <summary>Assert Vs Verify</summary>
+        In the case of assertions, if the assert condition is not met, test case
+        execution will be aborted. <br /> In case of verify, tests will continue
+        to run until the last test is executed even if assert conditions are not
+        met
+      </details>
+      <details>
         <summary>Test Strategy Vs Test Plan</summary>
         A test strategy sets the general standard for testing activities. <br />
         A test plan, on the other hand, defines specific details of the QA
