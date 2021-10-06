@@ -426,12 +426,12 @@ export const GitCommandData = [
     note: "Find hash with git reflog. Then this new branch will include those lost commits",
     category: " Basics ",
   },
-  // {
-  //   action: " ??????? ",
-  //   command: " ??????? ",
-  //   note: " ???????? ",
-  //   category: " Basics ",
-  // },
+  {
+    action: "Resetting a File to an Old Revision",
+    command: "git restore --source <commit_hash> <file_name> OR all files git restore --source <commit_hash>",
+    note: "Find hash by git reflog first",
+    category: " Basics ",
+  },
     // {
   //   action: " ??????? ",
   //   command: " ??????? ",
