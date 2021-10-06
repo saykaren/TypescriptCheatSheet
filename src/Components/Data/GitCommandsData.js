@@ -402,6 +402,12 @@ export const GitCommandData = [
     note: "",
     category: " Basics ",
   },
+  {
+    action: "Rebasing",
+    command: "git rebase",
+    note: "Conserve the original commit structure (straight line).  Do NOT use rebase on commits that you've already pushed/shared on a remote repository. Instead, use it for cleaning up your local commit history before merging it into a shared team branch. Rebase on your feature branch before integration it back into a team branch",
+    category: "Branching",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
