@@ -78,9 +78,9 @@ export const GitCommandData = [
     category: "Branching",
   },
   {
-    action: "Change head back to a given commit",
-    command: "git reset <commit>",
-    note: "",
+    action: "Resetting to Old Revision or Change head back to a given commit",
+    command: "git reset --hard <commit_hash> or git reset --mixed <commit_hash>",
+    note: "If after one commit all should be discarded. Find hash with git reflog. --hard removes all commits after that point. --mixed keeps changes in those commits you removed in as local changes so you have those future commits as local changes but not committed to the branch.",
     category: "Branching",
   },
   {
@@ -428,17 +428,18 @@ export const GitCommandData = [
   },
   {
     action: "Resetting a File to an Old Revision",
-    command: "git restore --source <commit_hash> <file_name> OR all files git restore --source <commit_hash>",
+    command:
+      "git restore --source <commit_hash> <file_name> OR all files git restore --source <commit_hash>",
     note: "Find hash by git reflog first",
     category: " Basics ",
   },
-    // {
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
   //   category: " Basics ",
   // },
-    // {
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
