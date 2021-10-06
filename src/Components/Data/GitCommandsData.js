@@ -313,7 +313,7 @@ export const GitCommandData = [
   },
   {
     action: "Fix last commit",
-    command: "git commit --amend",
+    command: "git commit --amend -m 'Typo are indeed embarressing'",
     note: "This command is convenient for adding new or updated files to the previous commit. It is also a simple way to edit or add comments to the previous commit. ",
     category: "Basics",
   },
