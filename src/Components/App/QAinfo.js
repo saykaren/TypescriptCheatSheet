@@ -45,6 +45,19 @@ const QAinfo = () => {
         responsibilities and process
       </details>
       <details>
+        <summary>Negative Vs Positive Testing</summary>
+        <b>Positive Testing:</b> Happy path. Performed assuming everything will
+        be as expected. It is performed with the assumption that only valid and
+        relevant things will occur. Example input should only allow 0-9999
+        numbers. Test by putting in numbers 0-9999 to ensure it works as
+        expected.
+        <br />
+        <b>Negative Testing:</b> Performed to check the system for unexpected
+        conditions. Provide invalid or improper data sets as inputs. Purpose of
+        negative testing is to ensure that the software does not crash and
+        remains stable with invalid data inputs. Same input but you put letters.
+      </details>
+      <details>
         <summary>HTTP Methods / HTTP Verbs</summary>
         <ul>
           <ol>POST - create</ol>
