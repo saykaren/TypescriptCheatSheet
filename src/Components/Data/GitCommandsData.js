@@ -243,7 +243,7 @@ export const GitCommandData = [
   {
     action: "Shows all the commits",
     command: "git reflog",
-    note: "Shows all the commits that have happened",
+    note: "Shows all the commits that have happened. Reflog is the diary of git via hash",
     category: "Other",
   },
   {
@@ -420,7 +420,25 @@ export const GitCommandData = [
     note: "",
     category: "Branching",
   },
+  {
+    action: "Recovering a Deleted Branch/Feature",
+    command: "git branch <new_branch_name> <commit_hash> ",
+    note: "Find hash with git reflog. Then this new branch will include those lost commits",
+    category: " Basics ",
+  },
   // {
+  //   action: " ??????? ",
+  //   command: " ??????? ",
+  //   note: " ???????? ",
+  //   category: " Basics ",
+  // },
+    // {
+  //   action: " ??????? ",
+  //   command: " ??????? ",
+  //   note: " ???????? ",
+  //   category: " Basics ",
+  // },
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
