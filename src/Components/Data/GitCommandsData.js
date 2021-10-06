@@ -408,6 +408,18 @@ export const GitCommandData = [
     note: "Conserve the original commit structure (straight line).  Do NOT use rebase on commits that you've already pushed/shared on a remote repository. Instead, use it for cleaning up your local commit history before merging it into a shared team branch. Rebase on your feature branch before integration it back into a team branch",
     category: "Branching",
   },
+  {
+    action: "Abort/Stop Merge",
+    command: " git merge --abort ",
+    note: "",
+    category: "Branching",
+  },
+  {
+    action: "Abort/Stop rebase",
+    command: "git rebase --abort",
+    note: "",
+    category: "Branching",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
