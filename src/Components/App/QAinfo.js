@@ -39,6 +39,12 @@ const QAinfo = () => {
         met
       </details>
       <details>
+        <summary>Test Strategy Vs Test Plan</summary>
+        A test strategy sets the general standard for testing activities. <br />
+        A test plan, on the other hand, defines specific details of the QA
+        responsibilities and process
+      </details>
+      <details>
         <summary>HTTP Methods / HTTP Verbs</summary>
         <ul>
           <ol>POST - create</ol>
