@@ -71,7 +71,28 @@ const QAinfo = () => {
       </details>
       <div>
         <h2>Resources</h2>
-        <a href="https://automationpanda.com" target="_blank" rel="noopener noreferrer"> Automation Panda Blog</a>
+        <ul>
+          <ol>
+            <a
+              href="https://automationpanda.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Automation Panda Blog
+            </a>
+          </ol>
+          <ol>
+            <a
+              href="https://testautomationu.applitools.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Free Test Automation University
+            </a>
+          </ol>
+        </ul>
       </div>
     </section>
   );

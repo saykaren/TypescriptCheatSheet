@@ -189,7 +189,7 @@ const SectionData = {
     { title: "CSS Tricks", componentTitle: <CssTricks /> },
     { title: "Prettier", componentTitle: <Prettier /> },
     { title: "Vim", componentTitle: <Vim /> },
-    { title: "QA", componentTitle: <QAinfo />}
+    { title: "QA - Quality Assurance", componentTitle: <QAinfo />}
   ],
 };
 
