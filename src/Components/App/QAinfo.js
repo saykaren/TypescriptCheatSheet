@@ -1,10 +1,10 @@
 import * as React from "react";
-import QA from "../Assests/QA.jpg"
+import QA from "../Assests/QA.jpg";
 
 const QAinfo = () => {
   return (
     <section>
-      <img src={QA} alt="QA" className="imageSmallGroup"/>
+      <img src={QA} alt="QA" className="imageSmallGroup" />
       <details>
         <summary>Branch Testing Versus Boundary Testing</summary>
         <h3>What is Bottom Up Testing?</h3>
@@ -69,6 +69,10 @@ const QAinfo = () => {
           <ol>DELETE - Delete</ol>
         </ul>
       </details>
+      <div>
+        <h2>Resources</h2>
+        <a href="https://automationpanda.com" target="_blank" rel="noopener noreferrer"> Automation Panda Blog</a>
+      </div>
     </section>
   );
 };
