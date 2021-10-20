@@ -74,6 +74,16 @@ const QAinfo = () => {
         <ul>
           <ol>
             <a
+              href="https://testautomationu.applitools.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Free Test Automation University
+            </a>
+          </ol>
+          <ol>
+            <a
               href="https://automationpanda.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -84,12 +94,11 @@ const QAinfo = () => {
           </ol>
           <ol>
             <a
-              href="https://testautomationu.applitools.com"
+              href="https://associationforsoftwaretesting.org/ast-testing-resources/?_ga=2.96231832.56234400.1633479848-1220061425.1633479848"
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
-              Free Test Automation University
+              AST Testing Resources - Association for Software Testing
             </a>
           </ol>
         </ul>
