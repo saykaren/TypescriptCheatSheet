@@ -123,8 +123,8 @@ const PythonBehave = () => {
         />
         <table>
         <tr>
-          <th className="tableColumn">Action</th>
-          <th className="tableColumn">Git command</th>
+          <th className="tableColumn">Description</th>
+          <th className="tableColumn">Python/Behave/Selenium Code</th>
           <th className="tableColumn">Note</th>
         </tr>
         {PythonData &&

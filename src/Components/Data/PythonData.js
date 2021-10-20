@@ -25,12 +25,12 @@ export const PythonData = [
     note: "",
     category: " Basics ",
   },
-  //   {
-  //     action: " ??????? ",
-  //     command: " ??????? ",
-  //     note: " ???????? ",
-  //     category: " Basics ",
-  //   },
+    {
+      action: "Find a specific instance / Click the nth item found",
+      command: "Then click 'xPath://span[text()='Participants'][position()=1]'",
+      note: "Count starts at 0. Above finds the second span tag with Participants in it",
+      category: " Basics ",
+    },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
