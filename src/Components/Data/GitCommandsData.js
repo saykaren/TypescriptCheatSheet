@@ -440,6 +440,18 @@ export const GitCommandData = [
     note: "",
     category: " Basics ",
   },
+  {
+    action: "Accidently hit Ctrl Z rather than Ctrl C",
+    command: "***Don't do it***",
+    note: "If you accidently do Ctrl+Z rather than Ctrl+C type fg to get back. Resource https://superuser.com/questions/1026953/resuming-a-job-with-r-in-zsh ",
+    category: " Basics ",
+  },
+  {
+    action: "Stop LocalHost",
+    command: "Ctrl+C",
+    note: "After running NPM Start and ready to close down local hit Ctrl+C",
+    category: "Basics",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
