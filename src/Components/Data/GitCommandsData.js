@@ -434,6 +434,12 @@ export const GitCommandData = [
     note: "Find hash by git reflog. Then do revert on that commit as it will allow you to do in an editor window, reverts creates a new commit that you save and close.",
     category: " Basics ",
   },
+  {
+    action: "Edit/Fix Old Commit Message",
+    command: "git commit --fixup",
+    note: "",
+    category: " Basics ",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
