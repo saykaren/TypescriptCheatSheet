@@ -140,12 +140,6 @@ export const GitCommandData = [
     category: "Basics",
   },
   {
-    action: "Remove",
-    command: "rm -rf <file name>",
-    note: "",
-    category: "Removing",
-  },
-  {
     action: "Kill this program",
     command: "<control>+C",
     note: "You hit those keys",
@@ -326,8 +320,8 @@ export const GitCommandData = [
   {
     action: "Remove file",
     command: "rm <fileName>",
-    note: "",
-    category: "Basics",
+    note: "Can use rm -rf <fileName> -rf is two options joined together -r for recursive removal and -f to force action",
+    category: "Removing",
   },
   {
     action: "Copy File",
