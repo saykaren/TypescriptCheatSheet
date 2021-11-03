@@ -1,8 +1,34 @@
-import React from "react";
+import React, {useState} from "react";
+import SQLTipsData from "../Data/SQLTipsData";
 
 const SQLResources = () => {
+  const [searchTerm, setSearchTerm] = useState("");
   return (
     <>
+    <input type="text" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} placeholder="Search Page" id="inputSearchTerm" />
+    <section>
+    <table>
+        <tr>
+          <th className="tableColumn">Action</th>
+          <th className="tableColumn">SQL code</th>
+          <th className="tableColumn">Note</th>
+        </tr>
+        {SQLTipsData &&
+          SQLTipsData.filter(
+            (item) =>
+              item.action.toLocaleLowerCase().includes(searchTerm) ||
+              item.command.toLocaleLowerCase().includes(searchTerm)
+          )
+            .sort((a, b) => a.action.localeCompare(b.action))
+            .map((x, index) => (
+              <tr key={index}>
+                <td className="tableColumn">{x.action}</td>
+                <td className="tableColumn">{x.command}</td>
+                <td className="tableColumn">{x.note}</td>
+              </tr>
+            ))}
+      </table>
+    </section>
       <ul>
         <li>
           <a
