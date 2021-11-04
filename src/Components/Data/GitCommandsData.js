@@ -93,7 +93,7 @@ export const GitCommandData = [
   {
     action: "List out branches",
     command: "git branch -a",
-    note: "",
+    note: "see local branches (git branch), see remote branches (git branch -r), see all local and remote branches (git branch -a)",
     category: "Branching",
   },
   {
