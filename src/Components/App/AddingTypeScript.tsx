@@ -21,12 +21,10 @@ const AddTypeScript = () => {
           Under components make an Interface folder to hold interface objects.
         </li>
       </ul>
-
       <img src={interfaceImage} alt="Interface" className="imageGroup" />
       <ul>
         <li>Example of interface props</li>
       </ul>
-
       <img
         src={InterfacePropsExample}
         alt="Interface Props Example"
@@ -90,6 +88,15 @@ const AddTypeScript = () => {
             target="_blank"
           >
             TypeScript Documentation
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.typescriptlang.org/play"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            TypeScript Playground
           </a>
         </li>
       </ul>
