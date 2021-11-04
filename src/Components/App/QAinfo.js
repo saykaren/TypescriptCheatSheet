@@ -68,6 +68,19 @@ const QAinfo = () => {
           <ol>PATCH - Update/Modify</ol>
           <ol>DELETE - Delete</ol>
         </ul>
+        <details>
+          <summary>POST Bonus Info</summary>
+          Contains a body section in the raw request. POST lets you stick form
+          data into the body and not in the URL, so it makes for clean URLs and
+          larger payloads
+        </details>
+        <details>
+          <summary>GET Bonus Info</summary>
+          Basically GET requests don’t have a ‘body’, it’s just headers and
+          parameterized URL. So you can use a GET request to do anything you
+          like, really. But you’re limited by the effective length of a URL,
+          which can vary by browser
+        </details>
       </details>
       <div>
         <h2>Resources</h2>
