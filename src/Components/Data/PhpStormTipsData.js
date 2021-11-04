@@ -1,4 +1,4 @@
-export const PhpTipsData = [
+export const PhpStormTipsData = [
   {
     action: "Remove Changes",
     command: "git reset --hard",
@@ -85,4 +85,4 @@ export const PhpTipsData = [
     // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
-export default PhpTipsData;
+export default PhpStormTipsData;

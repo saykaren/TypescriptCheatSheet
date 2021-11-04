@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import PhpTipsData from "../Data/PhpTipsData";
+import PhpStormTipsData from "../Data/PhpStormTipsData";
 
-const PhpTips = () => {
+const PhpStormTips = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   return (
@@ -19,8 +19,8 @@ const PhpTips = () => {
           <th className="tableColumn">PHP command</th>
           <th className="tableColumn">Note</th>
         </tr>
-        {PhpTipsData &&
-          PhpTipsData.filter(
+        {PhpStormTipsData &&
+          PhpStormTipsData.filter(
             (item) =>
               item.action
                 .toLocaleLowerCase()
@@ -72,4 +72,4 @@ const PhpTips = () => {
   );
 };
 
-export default PhpTips;
+export default PhpStormTips;
