@@ -81,6 +81,17 @@ const QAinfo = () => {
           like, really. But you’re limited by the effective length of a URL,
           which can vary by browser
         </details>
+        <details>
+          <summary>PUT vs PATCH vs POST</summary>
+          <ul>
+            <ol>POST - Create it. Brand spanking new</ol>
+            <ol>PUT - Update/Replace everything about it</ol>
+            <ol>
+              PATCH - Update/Partially updating. You know id but sending only
+              things you want changed
+            </ol>
+          </ul>
+        </details>
       </details>
       <div>
         <h2>Resources</h2>
