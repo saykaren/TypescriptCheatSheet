@@ -36,6 +36,20 @@ const PhpCode = () => {
       </table>
       <ul>
         <li>
+          First had to do <code>brew update</code> make sure up to date <br />
+          Then did <code>Brew tap shivammathur/homebrew-php</code> <br />
+          Then composer was located at ./vendor/bin/phpspec desc
+          Kgarcia/Php/Submarine <br />
+          <a
+            href="https://getcomposer.org/download/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Composer needed
+          </a>
+        </li>
+        <li>
           <a
             href="https://www.php.net/manual/en/function.empty.php"
             target="_blank"
@@ -62,6 +76,10 @@ const PhpCode = () => {
           parent classes. Members declared as
           <b>private</b> may only be accessed by the class that defines the
           member.
+        </li>
+        <li>
+          Tip: Write tests first run to fail and it will make methods for you to
+          fill in
         </li>
       </ul>
     </section>
