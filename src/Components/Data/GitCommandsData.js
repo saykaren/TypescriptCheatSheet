@@ -295,8 +295,8 @@ export const GitCommandData = [
 
   {
     action: "Latest Code with Rebase",
-    command: "git pull --rebase origin master",
-    note: "Give me the latest code from origin server but rebase the branch I am on, on top of the latest merge from origin.",
+    command: "git pull --rebase origin develop",
+    note: "Give me the latest code from origin server on develop branch but rebase the branch I am on, on top of the latest merge from origin.",
     category: "Basics",
   },
   {

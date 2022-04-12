@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Styling/App.scss";
+import "../Styling/App.css";
 import SectionComponent from "./SectionComponent";
 import Footer from "./Footer";
 import SectionData from "../Data/SectionData";

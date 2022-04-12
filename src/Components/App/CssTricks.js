@@ -10,7 +10,7 @@ const CssTricks = () => {
             <li>
               Has to be in an element but doesn't need to be a specific element
             </li>
-            <li>{`root: {
+            <li>{`:root {
                    --main-bg-color: brown;
                 }`}</li>
             <li>
