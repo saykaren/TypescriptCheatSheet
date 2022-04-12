@@ -1,11 +1,17 @@
-@import "./variables.scss";
 @import "./SectionComponent";
-@import "./GitCommands.scss";
-@import "./Footer.scss";
-@import "./ProjectFolderSetup.scss";
+@import "./GitCommands.css";
+@import "./Footer.css";
+@import "./ProjectFolderSetup.css";
+
+:root {
+  --primary-color: #282c34;
+  --secondary-color: #61dafb;
+  --light-color: white;
+  --dark-color: black;
+}
 
 a {
-  color: $light-color;
+  color: var(--light-color);
 }
 
 .App {
@@ -34,7 +40,7 @@ html {
 
 .imageGroup {
   max-width: 80vw;
-  box-shadow: 1px 1px 1px $light-color;
+  box-shadow: 1px 1px 1px var(--light-color);
   border-radius: 10px;
 }
 
@@ -45,13 +51,13 @@ html {
 }
 
 code {
-  color: $secondary-color;
-  text-shadow: rgba(255,255,255, 0.3) 1px 1px;
+  color: var(--secondary-color);
+  text-shadow: rgba(255, 255, 255, 0.3) 1px 1px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .imageSmallGroup {
   max-width: 10vw;
-  box-shadow: 1px 1px 1px $light-color;
+  box-shadow: 1px 1px 1px var(--light-color);
   border-radius: 10px;
 }

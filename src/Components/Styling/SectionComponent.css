@@ -1,15 +1,13 @@
 
-@import './variables.scss';
-
 .instructionalBox{
-    background-color: $primary-color;
-    color: $light-color;
+    background-color: var(--primary-color);
+    color: var(--light-color);
     padding: 7px;
     margin: 5px;
     width: fit-content;
     min-width: 30%;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px $secondary-color;
+    box-shadow: 1px 1px 1px var(--secondary-color);
     text-align: left;
   }
 
