@@ -131,6 +131,16 @@ const GitCommands = () => {
               Git
             </a>
           </li>
+          <li>
+            <a
+              href="https://github.com/browserslist/browserslist"
+              rel="noopener"
+              target="_blank"
+            >
+              BrowserList details - setup of package.json to build for specific
+              browsers
+            </a>
+          </li>
         </ul>
       </section>
     </>
