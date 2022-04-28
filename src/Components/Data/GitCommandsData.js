@@ -452,6 +452,18 @@ export const GitCommandData = [
     note: "After running NPM Start and ready to close down local hit Ctrl+C",
     category: "Basics",
   },
+  {
+    action: " List of browsers ",
+    command: " npx browserslist ",
+    note: "See which browsers will work with the setup of your package.json browserslist setup ",
+    category: " Basics ",
+  },
+  {
+    action: " BrowsersList coverage for certain type ",
+    command: " browserslist --coverage 'ie 11' ",
+    note: "See coverage of IE 11 per browserslist ",
+    category: " Basics ",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
