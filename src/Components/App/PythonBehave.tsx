@@ -52,7 +52,7 @@ const PythonBehave = () => {
             href="https://www.pythoncheatsheet.org/"
             rel="noreferrer noopener"
             target="_blank"
-          ></a>
+          >Python Cheatsheet</a>
         </ol>
         <ol>
           <a

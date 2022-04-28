@@ -42,7 +42,7 @@ const PhpStormTips = () => {
         <h1>Resources</h1>
         <a
           href="https://www.jetbrains.com/help/phpstorm/mastering-keyboard-shortcuts.html"
-          rel="noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           Jet Brains Keyboard Shortcuts
@@ -50,7 +50,7 @@ const PhpStormTips = () => {
         <br />
         <a
           href="https://www.jetbrains.com/help/rider/Keymaps_Comparison_Windows.html#select_text"
-          rel="noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           VS Code Shortcuts

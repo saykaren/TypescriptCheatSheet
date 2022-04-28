@@ -23,7 +23,7 @@ const ReactSnippets = () => {
         <h1>Resources</h1>
         <a
           href="https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets"
-          rel="noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           Simple React Snippets
