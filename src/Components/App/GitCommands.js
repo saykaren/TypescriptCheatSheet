@@ -38,14 +38,14 @@ const GitCommands = () => {
         <ul>
           <li>
             {" "}
-            <a href="https://ohshitgit.com/" rel="noopener" target="_blank">
+            <a href="https://ohshitgit.com/" rel="noreferrer noopener" target="_blank">
               Oh Shit Git Resource
             </a>
           </li>
           <li>
             <a
               href="http://gitimmersion.com/lab_03.html"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Basic Git
@@ -54,21 +54,21 @@ const GitCommands = () => {
           <li>
             <a
               href="https://git-school.github.io/visualizing-git/"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Visual Git
             </a>
           </li>
           <li>
-            <a href="https://gitup.co/" rel="noopener" target="_blank">
+            <a href="https://gitup.co/" rel="noreferrer noopener" target="_blank">
               GitUp
             </a>
           </li>
           <li>
             <a
               href="https://chris.beams.io/posts/git-commit/"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               How to Write Commit Messages
@@ -115,7 +115,7 @@ const GitCommands = () => {
           <li>
             <a
               href="https://learngitbranching.js.org/?locale=en_US"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Play games to learn git
@@ -124,7 +124,7 @@ const GitCommands = () => {
           <li>
             <a
               href="https://www.git-tower.com/learn/git/faq/git-diff/"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Git resources on git diff - Inspecting and Comparing Changes in
@@ -134,7 +134,7 @@ const GitCommands = () => {
           <li>
             <a
               href="https://github.com/browserslist/browserslist"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               BrowserList details - setup of package.json to build for specific

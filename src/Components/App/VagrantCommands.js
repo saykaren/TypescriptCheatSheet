@@ -38,7 +38,7 @@ const VagrantCommands = () => {
         <h1>Resources</h1>
         <a
           href="https://www.vagrantup.com/docs/providers/basic_usage"
-          rel="noopener"
+          rel="noreferrer noopener"
           target="_blank"
         >
           Vagrant Basic Usage

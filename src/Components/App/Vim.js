@@ -40,7 +40,7 @@ const Vim = () => {
             {" "}
             <a
               href="https://coderwall.com/p/adv71w/basic-vim-commands-for-getting-started"
-              rel="noopener"
+              rel="noreferrer noopener"
               target="_blank"
             >
               Vim (language Git is in) Tips and Tricks
