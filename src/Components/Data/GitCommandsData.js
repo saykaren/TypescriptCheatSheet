@@ -459,9 +459,9 @@ export const GitCommandData = [
     category: " Basics ",
   },
   {
-    action: " BrowserList coverage for certain type ",
+    action: " BrowsersList coverage for certain type ",
     command: " browserslist --coverage 'ie 11' ",
-    note: "See coverage of IE 11 per browserlist ",
+    note: "See coverage of IE 11 per browserslist ",
     category: " Basics ",
   },
   // {
