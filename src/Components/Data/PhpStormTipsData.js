@@ -82,7 +82,8 @@ export const PhpStormTipsData = [
   },
   { action: "Collapse", command: "Shift Cmd -", note: "", category: "Basics" },
   { action: "Expand", command: "Shift Cmd +", note: "", category: "Basics" },
-    // { action: "START", command: "git", note: "", category: "Basics" },
+    { action: "Resolve Conflicts", command: "VCS>git>resolve conflicts", note: "PhpStorm", category: "Basics" },
+      // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
 export default PhpStormTipsData;
