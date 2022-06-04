@@ -464,7 +464,25 @@ export const GitCommandData = [
     note: "See coverage of IE 11 per browserslist ",
     category: " Basics ",
   },
-  // {
+  {
+    action: "Stash changes",
+    command: "git stash save 'optional message for yourself'",
+    note: " stash changes with specific name",
+    category: " Basics ",
+  },
+  {
+    action: "Stash list details ",
+    command: "git stash list",
+    note: "List of stashes so you can find the name to pull it back out",
+    category: " Basics ",
+  },
+  {
+    action: "Retrieve stash by name",
+    command: "git stash pop STASH-NAME",
+    note: "Applies the changes and removes the files from the stash",
+    category: " Basics ",
+  }
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
