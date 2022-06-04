@@ -481,8 +481,14 @@ export const GitCommandData = [
     command: "git stash pop STASH-NAME",
     note: "Applies the changes and removes the files from the stash",
     category: " Basics ",
-  }
-    // {
+  },
+  {
+    action: "Commited to wrong branch",
+    command: "git reset --soft HEAD^",
+    note: "If you haven't yet pushed your changes, you can also do a soft reset",
+    category: " Basics ",
+  },
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
