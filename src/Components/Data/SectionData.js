@@ -46,6 +46,7 @@ import QAinfo from "../App/QAinfo";
 import PHPexamples from "../App/PHPexamples";
 import ExtjsHelp from "../App/Extjs";
 import HTTPMethods from "../App/HTTPMethods";
+import ObjectOrientedProgramming from "../App/ObjectOrientedProgramming";
 
 const SectionData = {
   data: [
@@ -195,7 +196,8 @@ const SectionData = {
     { title: "QA - Quality Assurance", componentTitle: <QAinfo /> },
     { title: "PHP Examples", componentTitle: <PHPexamples /> },
     { title: "Ext JS", componentTitle: <ExtjsHelp /> },
-    { title: "HTTP Methods RESTful API services", componentTitle: <HTTPMethods />}
+    { title: "HTTP Methods RESTful API services", componentTitle: <HTTPMethods />},
+    { title: "Object Oriented Programming", componentTitle: <ObjectOrientedProgramming />}
   ],
 };
 
