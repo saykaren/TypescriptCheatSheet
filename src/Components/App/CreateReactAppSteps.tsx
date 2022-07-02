@@ -21,6 +21,9 @@ const CreateReactAppSteps = () => {
         </li>
         <li>cd into folder</li>
         <li>
+          <code>git init</code> in terminal{" "}
+        </li>
+        <li>
           do yarn start or <code>npm start</code> to see is locally
         </li>
         <li>
@@ -48,9 +51,23 @@ const CreateReactAppSteps = () => {
         </li>
         <li>
           {" "}
-          In package.json addd at the top
+          In package.json add at the top
           <code>"homepage": "http://saykaren.github.io/saykarenaugsix",</code>
            or the equavalent
+        </li>
+        <li>
+          Copy items from a good repository like sayKarenRecipes
+          <br />
+          <code>cp ThisFolder/. ~/Desktop/karenProgram/....</code>
+          <br />
+          copy logo in public
+          <br />
+          copy footer.js
+          <br />
+          copy asset folder (can always delete what I don't need)
+          <br />
+          copy styling folder (can always delete what I don't need)
+          <br />
         </li>
       </ul>
       <h3>
