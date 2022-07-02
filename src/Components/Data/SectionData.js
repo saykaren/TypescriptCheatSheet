@@ -44,6 +44,7 @@ import Prettier from "../App/Prettier";
 import Vim from "../App/Vim";
 import QAinfo from "../App/QAinfo";
 import PHPexamples from "../App/PHPexamples";
+import ExtjsHelp from "../App/Extjs";
 
 const SectionData = {
   data: [
@@ -190,8 +191,9 @@ const SectionData = {
     { title: "CSS Tricks", componentTitle: <CssTricks /> },
     { title: "Prettier", componentTitle: <Prettier /> },
     { title: "Vim", componentTitle: <Vim /> },
-    { title: "QA - Quality Assurance", componentTitle: <QAinfo />},
-    { title: "PHP Examples", componentTitle: <PHPexamples />}
+    { title: "QA - Quality Assurance", componentTitle: <QAinfo /> },
+    { title: "PHP Examples", componentTitle: <PHPexamples /> },
+    { title: "Ext JS", componentTitle: <ExtjsHelp /> },
   ],
 };
 
