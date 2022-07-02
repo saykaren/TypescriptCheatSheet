@@ -87,6 +87,12 @@ export const PhpCodeData = [
     note: "",
     category: "Basics",
   },
+  {
+    action: "Outputs info about PHP Configuration",
+    command: "phpinfo();",
+    note: "This includes information about PHP compilation options and extensions, the PHP version, server information and environment (if compiled as a module), the PHP environment, OS version information, paths, master and local values of configuration options, HTTP headers, and the PHP License.",
+    category: "Basics",
+  },
 ];
 
 export default PhpCodeData;
