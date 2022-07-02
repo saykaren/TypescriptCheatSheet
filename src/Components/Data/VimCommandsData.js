@@ -47,7 +47,12 @@ export const VimCommandsData = [
     note: "Change number to change amount",
     category: "Basics",
   },
-
+  {
+    action: "present working development",
+    command: "pwd",
+    note: "",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
