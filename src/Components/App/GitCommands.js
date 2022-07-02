@@ -36,6 +36,12 @@ const GitCommands = () => {
       <section>
         <h1>Resources</h1>
         <ul>
+        <li>
+            {" "}
+            <a href="https://git-scm.com/" rel="noreferrer noopener" target="_blank">
+              Download git
+            </a>
+          </li>
           <li>
             {" "}
             <a href="https://ohshitgit.com/" rel="noreferrer noopener" target="_blank">
