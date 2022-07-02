@@ -488,7 +488,19 @@ export const GitCommandData = [
     note: "If you haven't yet pushed your changes, you can also do a soft reset",
     category: " Basics ",
   },
-  // {
+  {
+    action: " Permission to every single file ",
+    command: "chmod -R 777",
+    note: " makes every single file on the system under / (root) have -rwxrwxrwx permissions. allows all actions for all users",
+    category: " Basics ",
+  },
+  {
+    action: "Access to read and write",
+    command: "chmod -R 666",
+    note: "Command chmod 666 means that all users will have read and write permissions but cannot execute the file/folder",
+    category: " Basics ",
+  },
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
