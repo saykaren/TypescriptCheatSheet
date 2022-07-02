@@ -45,6 +45,7 @@ import Vim from "../App/Vim";
 import QAinfo from "../App/QAinfo";
 import PHPexamples from "../App/PHPexamples";
 import ExtjsHelp from "../App/Extjs";
+import HTTPMethods from "../App/HTTPMethods";
 
 const SectionData = {
   data: [
@@ -194,6 +195,7 @@ const SectionData = {
     { title: "QA - Quality Assurance", componentTitle: <QAinfo /> },
     { title: "PHP Examples", componentTitle: <PHPexamples /> },
     { title: "Ext JS", componentTitle: <ExtjsHelp /> },
+    { title: "HTTP Methods RESTful API services", componentTitle: <HTTPMethods />}
   ],
 };
 
