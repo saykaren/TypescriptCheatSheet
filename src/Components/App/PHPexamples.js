@@ -33,6 +33,15 @@ const PHPexamples = () => {
         quite widespread and occur anywhere a web application uses input from a
         user within the output it generates without validating or encoding it.
       </details>
+      <h3 className="headers">Magic Methods</h3>
+      <div>magic method = constructor method is example of one __construct does something each time the class is instantiated</div>
+      <a
+        href="https://www.php.net/manual/en/language.oop5.magic.php"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Magic methods documentation
+      </a>
     </section>
   );
 };
