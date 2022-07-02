@@ -43,6 +43,7 @@ import CssTricks from "../App/CssTricks";
 import Prettier from "../App/Prettier";
 import Vim from "../App/Vim";
 import QAinfo from "../App/QAinfo";
+import PHPexamples from "../App/PHPexamples";
 
 const SectionData = {
   data: [
@@ -189,7 +190,8 @@ const SectionData = {
     { title: "CSS Tricks", componentTitle: <CssTricks /> },
     { title: "Prettier", componentTitle: <Prettier /> },
     { title: "Vim", componentTitle: <Vim /> },
-    { title: "QA - Quality Assurance", componentTitle: <QAinfo />}
+    { title: "QA - Quality Assurance", componentTitle: <QAinfo />},
+    { title: "PHP Examples", componentTitle: <PHPexamples />}
   ],
 };
 
