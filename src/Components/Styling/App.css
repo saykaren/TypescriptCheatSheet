@@ -61,3 +61,7 @@ code {
   box-shadow: 1px 1px 1px var(--light-color);
   border-radius: 10px;
 }
+
+.headers {
+  padding-top: 20px;
+}
