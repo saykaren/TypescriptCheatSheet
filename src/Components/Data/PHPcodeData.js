@@ -99,6 +99,48 @@ export const PhpCodeData = [
     note: "Gives todays date with hour, minute and seconds",
     category: "Basics",
   },
+  {
+    action: "Null coalesce assignment operator",
+    command: "$address['street'] ??= '' ",
+    note: "Rather than do $address['street'] = $address['street'] ?? '' do the above null coalesce.",
+    category: "Basics",
+  },
+  {
+    action: "Null coalesce operator",
+    command: "$x ?? $y;",
+    note: "Same as saying isset($x) ? $x : $y; If $x is an empty string it will equal '' ($x empty string).",
+    category: "Basics",
+  },
+  {
+    action: "Elvis Operator",
+    command: "$x ?: $y",
+    note: "Equivalent to $x ? $x : $y; If $x is empty string it will equal $y. If $x was '0' or false then it will equal $y",
+    category: "Basics",
+  },
+  {
+    action: "isset()",
+    command: "isset($x)",
+    note: "If $x = null it will be false. If it hasn't been declared it will be false",
+    category: "Basics",
+  },
+  {
+    action: "empty()",
+    command: "empty($x)",
+    note: "Checks if variable is emtpy or not. Empty is considered for '', NULL, FALSE, '0', 0.0, 0, array()",
+    category: "Basics",
+  },
+  {
+    action: "Template Literal",
+    command: '"Hello {$name}, how are you?"',
+    note: "Template literal needs to be in double quotes. Can also do {${$object->getName()}} or {$square->width} or {$arr['key']} or {$arr['foo'][3]}",
+    category: "Basics",
+  },
+  // {
+  //   action: "????",
+  //   command: "????",
+  //   note: "",
+  //   category: "Basics",
+  // },
 ];
 
 export default PhpCodeData;

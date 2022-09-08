@@ -78,8 +78,14 @@ const PhpCode = () => {
           member.
         </li>
         <li>
-          Tip: Write tests first run to fail and it will make methods for you to
-          fill in
+          <a
+            href="https://www.designcise.com/web/tutorial/whats-the-difference-between-null-coalescing-operator-and-ternary-operator-in-php"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Elvis Operator ?: versus ?? Null Coalescing Operator
+          </a>
         </li>
       </ul>
     </section>
