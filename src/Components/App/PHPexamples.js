@@ -3,6 +3,22 @@ import React, { useState } from "react";
 const PHPexamples = () => {
   return (
     <section>
+      <h2 className="headers">Examples</h2>
+      <a
+        href="https://github.com/saykaren/PHPexamples"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        PHP Examples
+      </a>
+      <hr/>
+      <hr/>
+      <h3>Static</h3>
+      <div>The static keyword is used to declare properties and methods of a class as static. <br/>
+      Static properties and methods can be used without creating an instance of the class. <br/>
+      The static keyword is also used to declare variables in a function which keep their value after the function has ended. <br/>
+      Static properties use self instead of this in methods. To access static properties or methods use :: rather than -{'>'} </div>
+      <hr/>
       <h3>Null coalesce assignment operator</h3>
       <div>{`$address['street'] = $address['street'] ?? ' '; turns to $address['street'] ??= ' ';`}</div>
       <a
@@ -12,14 +28,6 @@ const PHPexamples = () => {
       >
         {" "}
         Assignment Operators
-      </a>
-      <h3 className="headers">Form Example</h3>
-      <a
-        href="https://github.com/saykaren/PHPexamples"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        PHP Examples
       </a>
       <h3 className="headers">Other</h3>
       <details>
