@@ -93,6 +93,12 @@ export const PhpCodeData = [
     note: "This includes information about PHP compilation options and extensions, the PHP version, server information and environment (if compiled as a module), the PHP environment, OS version information, paths, master and local values of configuration options, HTTP headers, and the PHP License.",
     category: "Basics",
   },
+  {
+    action: "Date",
+    command: 'date("Y-m-d H:i:s")',
+    note: "Gives todays date with hour, minute and seconds",
+    category: "Basics",
+  },
 ];
 
 export default PhpCodeData;
