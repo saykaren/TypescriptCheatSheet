@@ -500,7 +500,13 @@ export const GitCommandData = [
     note: "Command chmod 666 means that all users will have read and write permissions but cannot execute the file/folder",
     category: " Basics ",
   },
-    // {
+    {
+    action: "Compile issues especially after node update",
+    command: " rm -rf node_modules  /  rm -rf package-lock.json / npm install ",
+    note: "After updating node you need to remove node_modules and package-lock.json to install it again",
+    category: " Basics ",
+  },
+      // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
