@@ -500,13 +500,19 @@ export const GitCommandData = [
     note: "Command chmod 666 means that all users will have read and write permissions but cannot execute the file/folder",
     category: " Basics ",
   },
-    {
+  {
     action: "Compile issues especially after node update",
     command: " rm -rf node_modules  /  rm -rf package-lock.json / npm install ",
     note: "After updating node you need to remove node_modules and package-lock.json to install it again",
     category: " Basics ",
   },
-      // {
+  {
+    action: " Host file ",
+    command: " sudo nano /private/etc/hosts or sudo nano /etc/hosts ",
+    note: " After that command save your changes by pressing control-o on your keyboard then return to accept the filename. Exit the editor by pressing control-x. This takes you back to the terminal screen. You may need to flush your Mac’s DNS cache, so copy/paste the below command string into terminal, and press return: dscacheutil -flushcache. You may have to add sudo to this command, for example: sudo dscacheutil -flushcacheb. ",
+    category: " Basics ",
+  },
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
