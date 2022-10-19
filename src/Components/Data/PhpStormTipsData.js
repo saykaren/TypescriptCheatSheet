@@ -88,6 +88,18 @@ export const PhpStormTipsData = [
     note: "PhpStorm",
     category: "Basics",
   },
+  {
+    action: "PHP format",
+    command: "CMD Option L",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Setup PHP Format Preferences",
+    command: "CMD ,",
+    note: "CMD , brings in preferences in Editor>Code Style> PHP",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
