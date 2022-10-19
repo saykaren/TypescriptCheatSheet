@@ -36,15 +36,23 @@ const GitCommands = () => {
       <section>
         <h1>Resources</h1>
         <ul>
-        <li>
+          <li>
             {" "}
-            <a href="https://git-scm.com/" rel="noreferrer noopener" target="_blank">
+            <a
+              href="https://git-scm.com/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               Download git
             </a>
           </li>
           <li>
             {" "}
-            <a href="https://ohshitgit.com/" rel="noreferrer noopener" target="_blank">
+            <a
+              href="https://ohshitgit.com/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               Oh Shit Git Resource
             </a>
           </li>
@@ -67,7 +75,11 @@ const GitCommands = () => {
             </a>
           </li>
           <li>
-            <a href="https://gitup.co/" rel="noreferrer noopener" target="_blank">
+            <a
+              href="https://gitup.co/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
               GitUp
             </a>
           </li>
@@ -145,6 +157,15 @@ const GitCommands = () => {
             >
               BrowserList details - setup of package.json to build for specific
               browsers
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.macworld.com/article/221277/command-line-navigating-files-folders-mac-terminal.html"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Navigate files and folders in Terminal
             </a>
           </li>
         </ul>

@@ -507,9 +507,33 @@ export const GitCommandData = [
     category: " Basics ",
   },
   {
-    action: " Host file ",
-    command: " sudo nano /private/etc/hosts or sudo nano /etc/hosts ",
+    action: "Host file ",
+    command: "sudo nano /private/etc/hosts or sudo nano /etc/hosts ",
     note: " After that command save your changes by pressing control-o on your keyboard then return to accept the filename. Exit the editor by pressing control-x. This takes you back to the terminal screen. You may need to flush your Mac’s DNS cache, so copy/paste the below command string into terminal, and press return: dscacheutil -flushcache. You may have to add sudo to this command, for example: sudo dscacheutil -flushcacheb. ",
+    category: " Basics ",
+  },
+  {
+    action: "View all files even hidden",
+    command: "ls -a",
+    note: "-a allows you to see hidden files all of them will have dots in front of names",
+    category: " Basics ",
+  },
+  {
+    action: "Navigate to home folder",
+    command: "cd ~ ",
+    note: "cd with nothing else returns back to home folder or same as cd ~",
+    category: " Basics ",
+  },
+  {
+    action: "Navigate to root level",
+    command: "cd /",
+    note: "Go to root level of your startup disk",
+    category: " Basics ",
+  },
+  {
+    action: "Navigate back to directory you were in",
+    command: "cd - ",
+    note: "Go back to the directory you were in",
     category: " Basics ",
   },
   // {
