@@ -85,6 +85,18 @@ export const VagrantData = [
     note: "If DB changes are made you can provision first to see if that works before destroying and upping",
     category: "Basics",
   },
+  {
+    action: "List of vagrant boxes",
+    command: "vagrant box list",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Remove duplicate vagrant boxes",
+    command: "vagrant box list",
+    note: "",
+    category: "Basics",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
