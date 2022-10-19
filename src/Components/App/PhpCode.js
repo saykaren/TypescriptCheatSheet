@@ -96,6 +96,15 @@ const PhpCode = () => {
             Predefined constants (example E_ERROR / E_WARNING )
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.php.net/manual/en/ref.filesystem.php"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            PHP resources for working with files (chmod)
+          </a>
+        </li>
       </ul>
     </section>
   );
