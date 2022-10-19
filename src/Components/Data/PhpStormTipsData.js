@@ -100,7 +100,12 @@ export const PhpStormTipsData = [
     note: "CMD , brings in preferences in Editor>Code Style> PHP",
     category: "Basics",
   },
-  // { action: "START", command: "git", note: "", category: "Basics" },
+  // {
+  //   action: "START",
+  //   command: "git",
+  //   note: "",
+  //   category: "Basics",
+  // },
 ];
 
 export default PhpStormTipsData;
