@@ -87,6 +87,15 @@ const PhpCode = () => {
             Elvis Operator ?: versus ?? Null Coalescing Operator
           </a>
         </li>
+        <li>
+          <a
+            href="https://www.php.net/manual/en/errorfunc.constants.php"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Predefined constants (example E_ERROR / E_WARNING )
+          </a>
+        </li>
       </ul>
     </section>
   );
