@@ -536,7 +536,13 @@ export const GitCommandData = [
     note: "Go back to the directory you were in",
     category: " Basics ",
   },
-  // {
+  {
+    action: "Host file",
+    command: "vi /etc/hosts",
+    note: "",
+    category: " Basics ",
+  },
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
