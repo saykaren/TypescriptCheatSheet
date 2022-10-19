@@ -11,14 +11,20 @@ const PHPexamples = () => {
       >
         PHP Examples
       </a>
-      <hr/>
-      <hr/>
+      <hr />
+      <hr />
       <h3>Static</h3>
-      <div>The static keyword is used to declare properties and methods of a class as static. <br/>
-      Static properties and methods can be used without creating an instance of the class. <br/>
-      The static keyword is also used to declare variables in a function which keep their value after the function has ended. <br/>
-      Static properties use self instead of this in methods. To access static properties or methods use :: rather than -{'>'} </div>
-      <hr/>
+      <div>
+        The static keyword is used to declare properties and methods of a class
+        as static. <br />
+        Static properties and methods can be used without creating an instance
+        of the class. <br />
+        The static keyword is also used to declare variables in a function which
+        keep their value after the function has ended. <br />
+        Static properties use self instead of this in methods. To access static
+        properties or methods use :: rather than -{">"}{" "}
+      </div>
+      <hr />
       <h3>Null coalesce assignment operator</h3>
       <div>{`$address['street'] = $address['street'] ?? ' '; turns to $address['street'] ??= ' ';`}</div>
       <a
@@ -68,6 +74,24 @@ const PHPexamples = () => {
         An anti-pattern in OOP is a God object which performs a lot of functions
         which would be better separated into different objects.
       </details>
+      <hr/>
+      <h3 className="headers">PSR Standards</h3>
+      <a
+        href="https://www.php-fig.org/psr/psr-1/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        PSR-1: Basic Coding Standard
+      </a>
+      <br/>
+      <br/>
+      <a
+        href="https://www.php-fig.org/psr/psr-12/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        PSR-12: Extended Coding Style
+      </a>
     </section>
   );
 };
