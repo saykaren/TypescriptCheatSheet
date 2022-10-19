@@ -100,6 +100,30 @@ export const PhpStormTipsData = [
     note: "CMD , brings in preferences in Editor>Code Style> PHP",
     category: "Basics",
   },
+  {
+    action: "View recent files",
+    command: "CMD + E",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Navigation bar",
+    command: "CMD+Up",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Search everywhere",
+    command: "Double shift",
+    note: "",
+    category: "Basics",
+  },
+  {
+    action: "Go to file",
+    command: "Shift CMD O",
+    note: "",
+    category: "Basics",
+  },
   // {
   //   action: "START",
   //   command: "git",
