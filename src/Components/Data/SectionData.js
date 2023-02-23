@@ -47,6 +47,7 @@ import PHPexamples from "../App/PHPexamples";
 import ExtjsHelp from "../App/Extjs";
 import HTTPMethods from "../App/HTTPMethods";
 import ObjectOrientedProgramming from "../App/ObjectOrientedProgramming";
+import LanguagesGrid from "../App/LanguagesGrid";
 
 const SectionData = {
   data: [
@@ -197,7 +198,8 @@ const SectionData = {
     { title: "PHP Examples", componentTitle: <PHPexamples /> },
     { title: "Ext JS", componentTitle: <ExtjsHelp /> },
     { title: "HTTP Methods RESTful API services", componentTitle: <HTTPMethods />},
-    { title: "Object Oriented Programming", componentTitle: <ObjectOrientedProgramming />}
+    { title: "Object Oriented Programming", componentTitle: <ObjectOrientedProgramming />},
+    { title: "Language Grid", componentTitle: <LanguagesGrid />}
   ],
 };
 
