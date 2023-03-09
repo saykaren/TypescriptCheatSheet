@@ -23,6 +23,12 @@ export const LanguagesData = [
     javascript: "obj.hasOwnProperty('key')",
     note: "",
   },
+  {
+    technique: "Template Literal",
+    php: "\"Welcome {$firstName} {$lastName}!\"",
+    javascript: "\`Welcome ${firstName} ${lastName}`",
+    note: "",
+  }
 ];
 
 export default LanguagesData;
