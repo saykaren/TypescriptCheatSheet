@@ -24,6 +24,8 @@ const LanguagesGrid = () => {
           LanguagesData.filter(
             (item) =>
               item.technique.toLocaleLowerCase().includes(searchTerm)
+              || item.php.toLocaleLowerCase().includes(searchTerm)
+              || item.javascript.toLocaleLowerCase().includes(searchTerm)
           )
             .sort((a, b) => a.technique.localeCompare(b.technique))
             .map((row, rowIndex) => (
