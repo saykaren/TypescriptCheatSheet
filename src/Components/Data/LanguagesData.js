@@ -46,6 +46,36 @@ export const LanguagesData = [
     php: "$data = \"foo:*:1023\"; list($user, $pass, $uid) = explode(\":\", $data) echo $user = foo",
     javascript: "const [user, pass, uid] = text.split(\":\") console.log(user) = foo",
     note: ""
+  },
+  {
+    technique: "Remove duplicate values from an array",
+    php: "$unique = array_unique($array)",
+    javascript: "const unique = [...new Set($array)];",
+    note: ""
+  },
+  {
+    technique: "Applies the callback to the elements of the given arrays - mapping",
+    php: "array_map(fn($value): int => $value * 2, range(1, 5))",
+    javascript: "array.map(value => value * 2)",
+    note: ""
+  },
+  {
+    technique: "Filters elements of an array using a callback function",
+    php: "array_filter($arr, function($value, $key) {return $key === 'b' || $value === 4;}, ARRAY_FILTER_USE_BOTH)",
+    javascript: "arr.filter(value => value === 'b' | value === 4)",
+    note: ""
+  },
+  {
+    technique: "Convert a string to an array",
+    php: "str_split($string, 3) // $string = \"How are you\", answer ['Hel', 'lo ', 'Fri', 'end'];",
+    javascript: "string.split(\" \") // string = \"How are you\", answer ['How', 'are ', 'you'];",
+    note: "For php to split by space use explode()"
+  },
+  {
+    technique: "Replace all occurences of the search string with the replacement string",
+    php: "str_replace(\"World\",\"Karen\",\"Hello World!\");",
+    javascript: "\"Hello World!\".replace('World', 'Karen');",
+    note: ''
   }
 ];
 
