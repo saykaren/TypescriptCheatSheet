@@ -75,7 +75,30 @@ export const LanguagesData = [
     technique: "Replace all occurences of the search string with the replacement string",
     php: "str_replace(\"World\",\"Karen\",\"Hello World!\");",
     javascript: "\"Hello World!\".replace('World', 'Karen');",
-    note: ''
+    note: 'strstr() php replaces the first occurrence. strtr() translates the chars one by one. Javascript also has replaceFirst() and replaceAll()'
+  },
+  {
+    technique: "Length of a string",
+    php: "strlen(\"Hello World!\")",
+    javascript: "string.length",
+    note: ""
+  },
+  {
+    technique: "Translate characters or replace substrings",
+    php: "strtr(\"ÿou\", array('ÿ'=>'y')",
+    javascript: "\"ÿou\".replace('ÿ', 'y')"
+  },
+  {
+    technique: "Return part of a string",
+    php: "substr(\"abcdef\", 2, -1) = \"cde\"",
+    javascript: "'abcdef'.substring(2,5)",
+    note: ""
+  },
+  {
+    technique: "Split string by a regular expression",
+    php: "preg_split('/[\\s]+/', 'hypertext language programming');",
+    javascript: "string.split('/[\\s]+/');",
+    note:""
   }
 ];
 
