@@ -99,6 +99,18 @@ export const LanguagesData = [
     php: "preg_split('/[\\s]+/', 'hypertext language programming');",
     javascript: "string.split('/[\\s]+/');",
     note:""
+  },
+  {
+    technique: "Set cookies",
+    php: "setcookie(\"username\", \"John Doe\", strtotime( '+20 days' ));",
+    javascript: "document.cookie=\"username=John Doe;expires=Thu, 18 Dec 2013 12:00:00 UTC\";",
+    note: ""
+  },
+  {
+    technique: "Get cookies",
+    php: "htmlspecialchars($_COOKIE[\"name\"]);",
+    javascript: "decodeURIComponent(document.cookie).split(';');",
+    note: ''
   }
 ];
 
