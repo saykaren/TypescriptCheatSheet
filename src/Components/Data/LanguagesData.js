@@ -129,6 +129,12 @@ export const LanguagesData = [
     php: "$array = array(); $array[] = $newValue or array_push($array, $newValue)",
     javascript: "array.push(newValue)",
     note: ""
+  },
+  {
+    technique: "Find the position of the first occurrence of a substring in a string",
+    php: "strpos(\"Hello World!\", 'o', 5);",
+    javascript: "\"Hello World!\".indexOf('o', 5);",
+    note: 'answer 7'
   }
 ];
 
