@@ -542,7 +542,19 @@ export const GitCommandData = [
     note: "",
     category: " Basics ",
   },
-    // {
+  {
+    action: " Composer install project dependencies ",
+    command: " composer install ",
+    note: "Installs the project dependencies from the composer.lock file if present ",
+    category: " Basics ",
+  },
+  {
+    action: " Update compser itself ",
+    command: " composer self-update 2.3.0 ",
+    note: " version 2.3.0 ",
+    category: " Basics ",
+  },
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
