@@ -117,6 +117,24 @@ export const LanguagesData = [
     php: "public const THEME_COLOR = '#69BE28'; MyClass::THEME_COLOR",
     javascript: "export const THEME_COLOR = '#69BE28'; import {THEME_COLOR as THEME) from './constants';",
     note: ''
+  },
+  {
+    technique: "Check empty",
+    php: "empty($variable)",
+    javascript: "variable.length===0 | variable === null",
+    note: ''
+  },
+  {
+    technique: "Add to array",
+    php: "$array = array(); $array[] = $newValue or array_push($array, $newValue)",
+    javascript: "array.push(newValue)",
+    note: ""
+  },
+  {
+    technique: "Find the position of the first occurrence of a substring in a string",
+    php: "strpos(\"Hello World!\", 'o', 5);",
+    javascript: "\"Hello World!\".indexOf('o', 5);",
+    note: 'answer 7'
   }
 ];
 
