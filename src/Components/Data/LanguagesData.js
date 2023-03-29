@@ -111,6 +111,12 @@ export const LanguagesData = [
     php: "htmlspecialchars($_COOKIE[\"name\"]);",
     javascript: "decodeURIComponent(document.cookie).split(';');",
     note: ''
+  },
+  {
+    technique: "Constants and importing",
+    php: "public const THEME_COLOR = '#69BE28'; MyClass::THEME_COLOR",
+    javascript: "export const THEME_COLOR = '#69BE28'; import {THEME_COLOR as THEME) from './constants';",
+    note: ''
   }
 ];
 
