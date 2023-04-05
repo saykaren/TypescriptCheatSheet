@@ -61,7 +61,7 @@ export const VagrantData = [
     category: "Basics",
   },
   {
-    action: "List of Boxes",
+    action: "List of Vagrant Boxes",
     command: "vagrant box list",
     note: "gives list of boxes as they might be named different on Virtualmachine",
     category: "Basics",
@@ -86,15 +86,9 @@ export const VagrantData = [
     category: "Basics",
   },
   {
-    action: "List of vagrant boxes",
-    command: "vagrant box list",
-    note: "",
-    category: "Basics",
-  },
-  {
-    action: "Remove duplicate vagrant boxes",
-    command: "vagrant box list",
-    note: "",
+    action: "Remove duplicate box",
+    command: "vagrant box remove --box-version",
+    note:'https://developer.hashicorp.com/vagrant/docs/cli/box#box-remove',
     category: "Basics",
   },
   // { action: "START", command: "git", note: "", category: "Basics" },
