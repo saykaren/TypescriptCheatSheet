@@ -331,9 +331,9 @@ export const GitCommandData = [
   },
   { action: "List of Files", command: "ls -l", note: "", category: "Basics" },
   {
-    action: "Lit of Files with details",
+    action: "List of Files with details",
     command: "ls -al",
-    note: "List of all of them even hidden ones",
+    note: "Also ll is same. List of all of them even hidden ones",
     category: "Basics",
   },
   {
@@ -554,7 +554,13 @@ export const GitCommandData = [
     note: " version 2.3.0 ",
     category: " Basics ",
   },
-  // {
+  {
+    action: "List of Files with details",
+    command: "ll",
+    note: "Also ls -al is same. List of all of them even hidden ones",
+    category: "Basics",
+  },
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
