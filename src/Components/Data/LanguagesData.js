@@ -149,6 +149,12 @@ export const LanguagesData = [
     javascript: "obj.prop / obj['prop'] / { prop } = obj",
     note: "",
   },
+  {
+    technique: "Return the values from a single column in input array",
+    php: "$first_names = array_columns($records, 'first_name');",
+    javascript: "myarray.map( x => {return x['key']})",
+    note: "",
+  },
 ];
 
 export default LanguagesData;
