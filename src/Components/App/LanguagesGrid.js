@@ -3,6 +3,7 @@ import LanguagesData from "../Data/LanguagesData";
 
 const LanguagesGrid = () => {
   const [searchTerm, setSearchTerm] = useState("");
+  const [filterDataType, setFilterDataType] = useState("");
   return (
     <>
       <input
@@ -12,6 +13,20 @@ const LanguagesGrid = () => {
         onChange={(e) => setSearchTerm(e.target.value.toLocaleLowerCase())}
         id="inputSearchTerm"
       />
+      <select
+        name="dataType"
+        id="inputSearchTerms"
+        value={filterDataType}
+        onChange={(e) => setFilterDataType(e.currentTarget.value)}
+      >
+        <option value={""}>Select One</option>
+
+        <option value={"array"}>array</option>
+        <option value={"cookies"}>cookies</option>
+
+        <option value={"object"}>object</option>
+        <option value={"string"}>string</option>
+      </select>
       {searchTerm}
       <table>
         <tr>
@@ -23,10 +38,11 @@ const LanguagesGrid = () => {
         {LanguagesData &&
           LanguagesData.filter(
             (item) =>
-              item.technique.toLocaleLowerCase().includes(searchTerm)
-              || item.php.toLocaleLowerCase().includes(searchTerm)
-              || item.javascript.toLocaleLowerCase().includes(searchTerm)
+              item.technique.toLocaleLowerCase().includes(searchTerm) ||
+              item.php.toLocaleLowerCase().includes(searchTerm) ||
+              item.javascript.toLocaleLowerCase().includes(searchTerm)
           )
+            .filter((item) => item.dataType.includes(filterDataType))
             .sort((a, b) => a.technique.localeCompare(b.technique))
             .map((row, rowIndex) => (
               <tr key={rowIndex}>
