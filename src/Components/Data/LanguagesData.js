@@ -236,6 +236,27 @@ export const LanguagesData = [
     dataType: "object",
     note: "",
   },
+  {
+    technique: "For Loop",
+    php: "for ($i = 1; $i < count($myArray); $i++){ $myArray[i] + 2}",
+    javascript: "for (let i = 0; i < myArray.length; i++){ myArray[i] + 2}",
+    dataType: 'loop',
+    note: '',
+  },
+  {
+    technique: "While Loop",
+    php: "$i = 0; $n = 0; while ($i < 10) {$n++; $i+= n;} ",
+    javascript: "let i = 0; let n = 0; while (i < 10) {n++; i+= n;}",
+    dataType: 'loop',
+    note: '',
+  },
+  {
+    technique: "Switch",
+    php: "switch ($value) { case 0: $message = 'Hello'; break; default: $message = 'Goodbye'}",
+    javascript: "switch(value) { case 0: const message = 'Hello'; break; default: const message = 'Goodbye';}",
+    dataType: 'loop',
+    note: '',
+  }
 ];
 
 export default LanguagesData;
