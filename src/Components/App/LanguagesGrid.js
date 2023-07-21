@@ -66,6 +66,58 @@ const LanguagesGrid = () => {
             </a>
           </li>
         </ul>
+        <ul>
+          <li>
+            <details>
+              <summary>array_walk vs array_map vs array_filter</summary>
+              <ul>
+                <li>
+                  <h2>array_map</h2>
+                  <ul>
+                    <li>
+                      Cannot change the values inside arrays /never changes its
+                      arguments
+                    </li>
+                    <li>Returns a new array</li>
+                    <li>
+                      Can receive an arbitrary number of arrays and iterate over
+                      them in parallel
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <h2>array_walk</h2>
+                  <ul>
+                    <li>Can change values inside array</li>
+                    <li>
+                      Only returns boolean / if you dont' want to create an
+                      array as a resulting of traversing one array you should
+                      use array_walk
+                    </li>
+                    <li>Only operates on one array at a time</li>
+                    <li>
+                      Cannot alter the number of elements of the original array
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <h2>array_filter</h2>
+                  <ul>
+                    <li>
+                      Picks only a subset of the elements of the array according
+                      to a filtering function.
+                    </li>
+                    <li> It does preserve the keys.</li>
+                  </ul>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ul>
       </section>
     </>
   );
