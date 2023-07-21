@@ -66,7 +66,7 @@ export const LanguagesData = [
   {
     technique:
       "Applies the callback to the elements of the given arrays - mapping",
-    php: "array_map(fn($value): int => $value * 2, range(1, 5))",
+    php: "array_map(fn($value): int => $value * 2, range(1, 5)) or array_map(fn($value): int => $value * 2, $myArray)",
     javascript: "array.map(value => value * 2)",
     dataType: "array",
     note: "",
@@ -105,8 +105,8 @@ export const LanguagesData = [
     technique: "Translate characters or replace substrings",
     php: "strtr(\"ÿou\", array('ÿ'=>'y')",
     javascript: "\"ÿou\".replace('ÿ', 'y')",
-    dataType: 'string',
-    note: '',
+    dataType: "string",
+    note: "",
   },
   {
     technique: "Return part of a string",
@@ -206,19 +206,36 @@ export const LanguagesData = [
   {
     technique:
       "Change contents of an array by removing or replacing existing elements and/or adding new elements",
-    php: "",
+    php: "array_splice(&$myArray, 1, 0, 'addition')",
     javascript:
       "['Jan', 'March', 'April', 'June'].splice(1, 0, 'Feb'); note: splice(start, deleteCount, item0, item1, ....)",
     dataType: "array",
     note: "",
   },
   {
-    technique: "Find the position of the first occurrence of a case-insensitive substring in a string",
+    technique:
+      "Find the position of the first occurrence of a case-insensitive substring in a string",
     php: "stripos('Can you find the X in this string?', 'x'); note if the string starts with your needle to find it returns 0 so might need to do !== false if checking empty on value",
-    javascript: "'Can you find the X in this string?'.toLocaleLowerCase().indexOf('x')",
+    javascript:
+      "'Can you find the X in this string?'.toLocaleLowerCase().indexOf('x')",
     dataType: "string",
-    note: ''
-  }
+    note: "",
+  },
+  {
+    technique: "Merge one or more arrays",
+    php: "array_merge($array1, $array2)",
+    javascript:
+      "mergeArrays = [...array1, ...array2] or mergeArrays = array1.concat(array2)",
+    dataType: "array",
+    note: "",
+  },
+  {
+    technique: "Get Object Keys",
+    php: "array_keys($myArray)",
+    javascript: "Object.keys(myObject);",
+    dataType: "object",
+    note: "",
+  },
 ];
 
 export default LanguagesData;
