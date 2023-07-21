@@ -23,7 +23,7 @@ const LanguagesGrid = () => {
 
         <option value={"array"}>array</option>
         <option value={"cookies"}>cookies</option>
-
+        <option value={"loop"}>loop</option>
         <option value={"object"}>object</option>
         <option value={"string"}>string</option>
       </select>
