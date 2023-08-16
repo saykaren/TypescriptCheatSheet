@@ -256,6 +256,27 @@ export const LanguagesData = [
     javascript: "switch(value) { case 0: const message = 'Hello'; break; default: const message = 'Goodbye';}",
     dataType: 'loop',
     note: '',
+  },
+  {
+    technique: "Dates",
+    php: "date(format, timestamp) / date('Y-m-d H:i:s')",
+    javascript: "const currentDate = new Date(); // datetime = `${currentdate.getMonth()}/${currentdate.getDate()}/${currentdate.getFullYear()} ${currentdate.getHours()}:${currentdate.getMinutes()}`;",
+    dataType: 'date',
+    note: 'H - 24 hour, h - 12 hour, i - minutes, s - seconds, a - am or pm, l - day of the week',
+  },
+  {
+    technique: 'String to Time/Date',
+    php: 'date("Y-m-d h:i:sa", strtotime("10:30pm April 15 2023");',
+    javascript: 'const currentDate = new Date(); // datetime = `${currentdate.getMonth()}/${currentdate.getDate()}/${currentdate.getFullYear()} ${currentdate.getHours()}:${currentdate.getMinutes()}`;',
+    dataType: 'date',
+    note: '',
+  },
+  {
+    technique: 'Get Unix timesteamp for a date',
+    php: 'mktime($hour, $minute, $second, $month, $day, $year); / mktime(0, 0, 0, 7, 1, 2000); / $tomorrow  = mktime(0, 0, 0, date("m")  , date("d")+1, date("Y"));',
+    javascript: 'const timeStamp = Date.now()',
+    dataType: 'date',
+    note: 'new Date() - creates a Date object representing the current date/time // Date.now() - returns the number of milliseconds since midnight 01 January, 1970 UTC',
   }
 ];
 
