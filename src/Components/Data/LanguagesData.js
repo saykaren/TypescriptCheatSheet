@@ -277,6 +277,13 @@ export const LanguagesData = [
     javascript: 'const timeStamp = Date.now()',
     dataType: 'date',
     note: 'new Date() - creates a Date object representing the current date/time // Date.now() - returns the number of milliseconds since midnight 01 January, 1970 UTC',
+  },
+  {
+    technique: 'Concatentation',
+    php: '$myString = "Hello $name"; or \'Hello \'. $name; or $myString = \'Hello\'; $myString .= $name; or $myString = "Hello {$name}s" if concat right next to variable wrap in brackets',
+    javascript: '`Hello ${name}`; or \'Hello \' + name; or str += name or [\'Hello\', \'World\'].join(\' \') or \'Hello \'.concate(\'World\', \'!\')',
+    dataType: 'string',
+    note: ''
   }
 ];
 
