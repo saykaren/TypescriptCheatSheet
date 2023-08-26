@@ -18,6 +18,12 @@ export const SQLTipsData = [
     note: "The CREATE UNIQUE INDEX command creates a unique index on a table (no duplicate values allowed)",
     category: "Basics",
   },
+  {
+    action: "Check if column exists and execute a statement",
+    command: "SET @exist_Check := (SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME=table_name AND COLUMN_NAME=column_name AND TABLE_SCHEMA=database()) SELECT @exist_Check; SET @sqlstmt := IF(@exist_Check>0,'ALTER TABLE DROP COLUMN ;', 'select '''''); SELECT @sqlstmt; PREPARE stmt FROM @sqlstmt; EXECUTE stmt ;",
+    note: "",
+    category: "Basics",
+  }
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 
