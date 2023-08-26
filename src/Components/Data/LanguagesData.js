@@ -196,8 +196,16 @@ export const LanguagesData = [
     note: "",
   },
   {
+    technique: "Map array of objects to change objects - returns boolean",
+    php: "array_walk(['first_key' => 'first_value'], function(&$key, $value) { $value*2 });",
+    javascript:
+      "data.forEach((dataObject, index) => { data[index] = dataObject * 2});",
+    dataType: "array",
+    note: "",
+  },
+  {
     technique: "Map array of objects and get keys and values",
-    php: "array_walk(['first_key' => 'first_value'], function(&$key, $value) { $objKey = $key; $objValue = $value});",
+    php: "array_map(['first_key' => 'first_value'], function(&$key, $value) { $objKey = $key; $objValue = $value});",
     javascript:
       "data.map((dataObject) => {const objKey = Object.keys(dataObject)[0]; const objValue = dataObject[`${objKey}`];});",
     dataType: "array",
