@@ -29,7 +29,7 @@ export const LanguagesData = [
   },
   {
     technique: "Template Literal",
-    php: '"Welcome {$firstName} {$lastName}!"',
+    php: '"Welcome {$firstName} {$lastName}!" / class people { public $john = "John Smith";} $juices = array("apple", "orange"); $people = new people(); "$people->john drank some $juice[1] juice." -- Answer "John Smith drank some orange juice."}',
     javascript: "`Welcome ${firstName} ${lastName}`",
     dataType: "string",
     note: "",
