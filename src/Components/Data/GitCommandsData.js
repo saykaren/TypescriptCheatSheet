@@ -560,6 +560,12 @@ export const GitCommandData = [
     note: "Also ls -al is same. List of all of them even hidden ones",
     category: "Basics",
   },
+  {
+    action: "copy",
+    command: "scp -i",
+    note: "SCP (Secure Copy Protocol) is a network protocol used to securely copy files/folders between Linux (Unix) systems on a network",
+    category: "Basics"
+  }
     // {
   //   action: " ??????? ",
   //   command: " ??????? ",
