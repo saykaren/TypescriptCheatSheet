@@ -565,6 +565,24 @@ export const GitCommandData = [
     command: "scp -i",
     note: "SCP (Secure Copy Protocol) is a network protocol used to securely copy files/folders between Linux (Unix) systems on a network",
     category: "Basics"
+  },
+  {
+    action: "Copy",
+    command: "pbcopy < fileLocation",
+    note: "",
+    category: "",
+  },
+  {
+    action: "Copy list of files in your home directory to clipboard",
+    command: "ls ~ | pbcopy",
+    note: "",
+    category: "",
+  },
+  {
+    action: "Paste",
+    command: "pbpaste > pastetest.txt",
+    note: "paste items in clipboard to pastetest.txt file",
+    category: "",
   }
     // {
   //   action: " ??????? ",
