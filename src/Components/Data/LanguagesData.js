@@ -292,6 +292,13 @@ export const LanguagesData = [
     javascript: '`Hello ${name}`; or \'Hello \' + name; or str += name or [\'Hello\', \'World\'].join(\' \') or \'Hello \'.concate(\'World\', \'!\')',
     dataType: 'string',
     note: ''
+  },
+  {
+    technique: 'Returns/Filters array entries that match regex pattern',
+    php: '$input = ["Red", "Pink", "Green", "Purple"]; $result = preg_grep("/^p/i", $input);',
+    javascript: 'const filteredFruits = ["apple", "banana", "kiwi", "grape"].filter(fruit => fruit.match(/a/))',
+    dataType: 'array',
+    note: ''
   }
 ];
 
