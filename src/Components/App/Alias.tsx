@@ -23,6 +23,8 @@ const Alias = () => {
         Other helpful one are <br />
         $ git config --global alias.co checkout
         <br />
+        $ git config --global alias.cob checkout -b
+        <br />
         $ git config --global alias.br branch
         <br />
         $ git config --global alias.ci commit
