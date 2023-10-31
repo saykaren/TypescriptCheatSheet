@@ -583,8 +583,14 @@ export const GitCommandData = [
     command: "pbpaste > pastetest.txt",
     note: "paste items in clipboard to pastetest.txt file",
     category: "",
-  }
-    // {
+  },
+    {
+    action: "copy file from local to another",
+    command: " scp -i <FILE_IN_DOWNLOADS_LOCALLY> centos@:/<file>",
+    note: "",
+    category: " Basics ",
+  },
+      // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
