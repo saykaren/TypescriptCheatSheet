@@ -299,6 +299,27 @@ export const LanguagesData = [
     javascript: 'const filteredFruits = ["apple", "banana", "kiwi", "grape"].filter(fruit => fruit.match(/a/))',
     dataType: 'array',
     note: ''
+  },
+  {
+    technique: 'Set the internal pointer of an array to its first element',
+    php: 'reset($myArray);',
+    javascript: 'myArray[0]',
+    dataType: 'array',
+    note: ''
+  },
+  {
+    technique: 'Return the current element in an array',
+    php: 'current($myArray);',
+    javascript: 'myArray[0]',
+    dataType: 'array',
+    note: 'Every array has an internal pointer to its "current" element, which is initialized to the first element inserted into the array.'
+  },
+  {
+    technique: 'Return the last element in an array',
+    php: 'end($myArray);',
+    javascript: 'myArray[myArray.length-1]',
+    dataType: 'array',
+    note: ''
   }
 ];
 
