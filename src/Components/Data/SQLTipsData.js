@@ -62,6 +62,24 @@ export const SQLTipsData = [
     command: "SUBSTRING('Hello World', 1, 4) -- returns 'Hell'",
     note: "",
     category: 'Basics'
+  },
+  {
+    action: "Count modes",
+    command: "SELECT customer_id, name, ROW_NUMBER() OVER (partition by customer_id, name ORDER BY customer_id, bill_to_customer_id) unique_id FROM customer_table;",
+    note: "",
+    category: 'Basics'
+  },
+  {
+    action: "Shows the statement used to create the specified table",
+    command: "SHOW CREATE TABLE `tableName`",
+    note: "",
+    category: 'Basics'
+  },
+  {
+    action: "Terminates the stored procedure or function",
+    command: "LEAVE [stored_procedure]",
+    note: "",
+    category: ''
   }
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
