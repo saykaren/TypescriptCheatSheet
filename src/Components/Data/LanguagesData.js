@@ -346,6 +346,27 @@ export const LanguagesData = [
     javascript: "for (const element of array1) { const isDefault = element.data.is_default; if (isDefault === 1) {isDefaultSet = true; break;}}",
     dataType: "array",
     note: "for-of loop instead of a for loop with this simple iteration",
+  },
+  {
+    technique: "Returns string padded",
+    php: "$padString = str_pad('Hello', 10, '.'); // output = Hello.....",
+    javascript: "'Hello'.padEnd(10,'.')}",
+    dataType: "string",
+    note: ""
+  },
+  {
+    technique: "Return formatted string",
+    php: 'sprintf("There are %u million bicycles in %s.", 9, "Beijing"); // output = There are 9 million bicycles in Beijing',
+    javascript: "",
+    dataType: "string",
+    note: 'The sprintf() function writes a formatted string to a variable. The arg1, arg2, ++ parameters will be inserted at percent (%) signs in the main string. This function works "step-by-step". At the first % sign, arg1 is inserted, at the second % sign, arg2 is inserted, etc.'
+  },
+  {
+    technique: "Filters a variable with a specific filter",
+    php: "filter_var($variable, FILTER_SANITIZE_STRING)",
+    javascript: "const sanitizeInput = (input) => input.replace(/[^A-Za-z]/g, '').",
+    dataType: "string",
+    note: "This example removes all non alphabetic characters from the input.",
   }
 ];
 

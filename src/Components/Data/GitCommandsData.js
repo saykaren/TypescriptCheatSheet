@@ -601,8 +601,14 @@ export const GitCommandData = [
     command: "sudo -i",
     note: "",
     category: ""
-  }
-  // {
+  },
+  {
+    action: "Stash one specific file",
+    command: "git stash push -m <stash_name> <file_path_to_stash>",
+    note: "Stash one file",
+    category: " Basics ",
+  },
+    // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",
