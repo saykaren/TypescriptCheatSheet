@@ -29,6 +29,12 @@ export const SQLTipsData = [
     command: "SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME= AND COLUMN_NAME= AND TABLE_SCHEMA=database()",
     note: "",
     category: "",
+  },
+  {
+    action: "Find other tables a column is foreign keyed to",
+    command: "SELECT TABLE_NAME, COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA = '' AND REFERENCED_TABLE_NAME = '' AND REFERENCED_COLUMN_NAME = '';",
+    note: "",
+    category: ''
   }
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
