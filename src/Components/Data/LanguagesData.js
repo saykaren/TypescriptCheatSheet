@@ -340,6 +340,13 @@ export const LanguagesData = [
     dataType: "string",
     note: "",
   },
+  {
+    technique: "for-of loop rather than for loop",
+    php: "",
+    javascript: "for (const element of array1) { const isDefault = element.data.is_default; if (isDefault === 1) {isDefaultSet = true; break;}}",
+    dataType: "array",
+    note: "for-of loop instead of a for loop with this simple iteration",
+  }
 ];
 
 export default LanguagesData;
