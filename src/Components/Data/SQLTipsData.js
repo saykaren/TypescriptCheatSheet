@@ -30,15 +30,39 @@ export const SQLTipsData = [
     command:
       "SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME= AND COLUMN_NAME= AND TABLE_SCHEMA=database()",
     note: "",
-    category: "",
+    category: "Basics",
   },
   {
     action: "Find other tables a column is foreign keyed to",
     command:
       "SELECT TABLE_NAME, COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA = '' AND REFERENCED_TABLE_NAME = '' AND REFERENCED_COLUMN_NAME = '';",
     note: "",
-    category: "",
+    category: "Basics",
   },
+  {
+    action: "Adds two or more expressions together with a separator",
+    command: "concat_ws('-', '303', '555', '5555')",
+    note: "First parameter is the separator",
+    category: "Basics",
+  },
+  {
+    action: "Converts the text to upper-case",
+    command: "UPPER('hello world') OR UCASE('hello world')",
+    note: "",
+    category: 'Basics',
+  },
+  {
+    action: "Converts the text to lower-case",
+    command: "LCASE('HELLO WORLD');",
+    note: "",
+    category: 'Basics'
+  },
+  {
+    action: "Extracts a substring from a string",
+    command: "SUBSTRING('Hello World', 1, 4) -- returns 'Hell'",
+    note: "",
+    category: 'Basics'
+  }
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 

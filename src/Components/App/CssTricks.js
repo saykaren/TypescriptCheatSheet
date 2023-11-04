@@ -64,6 +64,18 @@ const CssTricks = () => {
               </a>
             </li>
           </ul>
+          <ul>
+            <li>
+              <a
+                href="https://cssbuttons.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                CSS Button
+              </a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
