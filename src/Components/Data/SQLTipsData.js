@@ -20,22 +20,25 @@ export const SQLTipsData = [
   },
   {
     action: "Check if column exists and execute a statement",
-    command: "SET @exist_Check := (SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME=table_name AND COLUMN_NAME=column_name AND TABLE_SCHEMA=database()) SELECT @exist_Check; SET @sqlstmt := IF(@exist_Check>0,'ALTER TABLE DROP COLUMN ;', 'select '''''); SELECT @sqlstmt; PREPARE stmt FROM @sqlstmt; EXECUTE stmt ;",
+    command:
+      "SET @exist_Check := (SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME=table_name AND COLUMN_NAME=column_name AND TABLE_SCHEMA=database()) SELECT @exist_Check; SET @sqlstmt := IF(@exist_Check>0,'ALTER TABLE DROP COLUMN ;', 'select '''''); SELECT @sqlstmt; PREPARE stmt FROM @sqlstmt; EXECUTE stmt ;",
     note: "",
     category: "Basics",
   },
   {
     action: "Check if a column exists",
-    command: "SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME= AND COLUMN_NAME= AND TABLE_SCHEMA=database()",
+    command:
+      "SELECT COUNT(*) FROM information_schema.columns WHERE TABLE_NAME= AND COLUMN_NAME= AND TABLE_SCHEMA=database()",
     note: "",
     category: "",
   },
   {
     action: "Find other tables a column is foreign keyed to",
-    command: "SELECT TABLE_NAME, COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA = '' AND REFERENCED_TABLE_NAME = '' AND REFERENCED_COLUMN_NAME = '';",
+    command:
+      "SELECT TABLE_NAME, COLUMN_NAME, CONSTRAINT_NAME, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE REFERENCED_TABLE_SCHEMA = '' AND REFERENCED_TABLE_NAME = '' AND REFERENCED_COLUMN_NAME = '';",
     note: "",
-    category: ''
-  }
+    category: "",
+  },
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
 

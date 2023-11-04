@@ -596,6 +596,12 @@ export const GitCommandData = [
     note: " ",
     category: " Basics ",
   },
+  {
+    action: "Change to root user",
+    command: "sudo -i",
+    note: "",
+    category: ""
+  }
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
