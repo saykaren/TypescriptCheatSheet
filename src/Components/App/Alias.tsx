@@ -36,7 +36,21 @@ const Alias = () => {
       <p>git config --get alias.pushit</p>
       <h4>Adjust Alias</h4>
       <p>Just do the command that you would to add it</p>
-      <p>git config --global alias.pushit 'push -u origin HEAD --force-with-lease' (I originally added the git in the quotes which messed it up'</p>
+      <p>
+        git config --global alias.pushit 'push -u origin HEAD
+        --force-with-lease' (I originally added the git in the quotes which
+        messed it up'
+      </p>
+      <details>
+        <summary>Add shell command to use code to open vscode</summary>
+        Add ability to use code in terminal to open vscode. Go into vscode do
+        shortcut <br />
+        <code>CMD + SHIFT + P</code> <br />
+        then search for code path It should bring up{" "}
+        <code>Shell Command:Install 'code' command in PATH'</code> click this
+        and then you should be able to do code to open it up in vscode easily
+      </details>
+      <p>git config --get alias.pushit</p>
       <a
         href="http://git-scm.com/book/en/v2/Git-Basics-Git-Aliases"
         target="_blank"
@@ -52,7 +66,7 @@ const Alias = () => {
         rel="noopener noreferrer"
       >
         {" "}
-       Git Overview
+        Git Overview
       </a>
       <br />
       <a
