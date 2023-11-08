@@ -600,7 +600,7 @@ export const GitCommandData = [
     action: "Change to root user",
     command: "sudo -i",
     note: "",
-    category: ""
+    category: "",
   },
   {
     action: "Stash one specific file",
@@ -608,7 +608,25 @@ export const GitCommandData = [
     note: "Stash one file",
     category: " Basics ",
   },
-    // {
+  {
+    action: "Edit host file",
+    command: " sudo vi /etc/hosts ",
+    note: "",
+    category: " Basics ",
+  },
+  {
+    action: " Generate a ssh key ",
+    command: "ssh-keygen -t rsa -f ~/.ssh/<fileName>",
+    note: "",
+    category: " Basics ",
+  },
+  {
+    action: "Gives help information on a command",
+    command: " man <request> ",
+    note: "",
+    category: " Basics ",
+  },
+  // {
   //   action: " ??????? ",
   //   command: " ??????? ",
   //   note: " ???????? ",

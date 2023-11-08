@@ -36,7 +36,7 @@ const GitCommands = () => {
       <section>
         <h1>Resources</h1>
         <ul>
-          <li>
+        <li>
             {" "}
             <a
               href="https://git-scm.com/"
@@ -44,6 +44,16 @@ const GitCommands = () => {
               target="_blank"
             >
               Download git
+            </a>
+          </li>
+          <li>
+            {" "}
+            <a
+              href="https://www.guru99.com/linux-commands-cheat-sheet.html"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Linux Command Cheat Sheet
             </a>
           </li>
           <li>
