@@ -367,6 +367,20 @@ export const LanguagesData = [
     javascript: "const sanitizeInput = (input) => input.replace(/[^A-Za-z]/g, '').",
     dataType: "string",
     note: "This example removes all non alphabetic characters from the input.",
+  },
+  {
+    technique: "Ensures each element of array passes a test",
+    php: "function checkAge($acc, $value) {if ($value < 21){return false;}}; $everyOneOver21 = array_reduce($agArray, 'checkAge', true);",
+    javascript: "everyoneOver21 = [31,28,57,89,12,22].every(age => age > 21)",
+    dataType: "array",
+    note: ""
+  },
+  {
+    technique: "Computes the intersection of arrays",
+    php: "$result = array_intersect(['a' => 'green', 'red', 'blue'], ['b'=>'green', 'yellow']); output ['a' => 'green', '0' => 'red];",
+    javascript: "['green', 'red', 'blue'].filter(value => ['green', 'yellow', 'purple'].includes(value));",
+    dataType: "array",
+    note: ''
   }
 ];
 

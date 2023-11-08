@@ -79,7 +79,13 @@ export const SQLTipsData = [
     action: "Terminates the stored procedure or function",
     command: "LEAVE [stored_procedure]",
     note: "",
-    category: ''
+    category: 'Basics'
+  },
+  {
+    action: "Find foreign key constraints with column constraints",
+    command: "SELECT kcu.*, rc.DELETE_RULE, rc.UPDATE_RULE FROM information_schema.KEY_COLUMN_USAGE kcu LEFT JOIN information_schema.REFERENTIAL_CONSTRAINTS rc ON kcu.CONSTRAINT_NAME = rc.CONSTRAINT_NAME WHERE kcu.REFERENCED_TABLE_NAME = '' AND kcu.REFERENCED_COLUMN_NAME = '';",
+    note: "",
+    category: 'Basics'
   }
   // { action: "START", command: "git", note: "", category: "Basics" },
 ];
