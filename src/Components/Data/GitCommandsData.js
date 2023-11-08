@@ -623,7 +623,7 @@ export const GitCommandData = [
   {
     action: "Gives help information on a command",
     command: " man <request> ",
-    note: "",
+    note: "man ssh-keygen",
     category: " Basics ",
   },
   // {
