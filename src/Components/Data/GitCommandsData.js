@@ -626,6 +626,19 @@ export const GitCommandData = [
     note: "man ssh-keygen",
     category: " Basics ",
   },
+  {
+    action: "Squashing commits",
+    command:
+      "git log --oneline / git rebase -i HEAD~1 / in vim pick one and squash the rest / esc wq enter",
+    note: "Update ~1 to go back how far you need.",
+    category: " Basics ",
+  },
+  {
+    action: "Rebase one commit onto another branch",
+    command: "On branch I want one commit / git log --oneline / note commit number / git switch develop / git cob <branchName>-FIXED / git cherry-pick <commitNumber> / go on old branch git reset --hard <FIXED branch name> (aka the branch with code I like / git pushit",
+    note: "Fixing a branch I made off another branch than develop. Fix that branch to cherry pick my commit onto a fix branch off of develop then make the original branch look like the fixed branch",
+    category: " Basics ",
+  },
   // {
   //   action: " ??????? ",
   //   command: " ??????? ",
